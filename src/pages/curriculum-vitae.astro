@@ -1,0 +1,202 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLine from "../components/cv/TimeLine.jsx";
+import Stacks from "../components/cv/Stacks.jsx";
+
+let stack = [
+  "ReactJs",
+  "JavaScript",
+  "MongoDB",
+  "Laravel",
+  "MeteorJs",
+  "CSS",
+  "Bootstrap",
+  "Reactstrap",
+  "AstroJs",
+  "jQuery",
+  "FireBase",
+  "SEO",
+];
+let items = [
+  {
+    title: "Front-End Developer",
+    subtitle: "ATIVAR Desarrollo de Software - Mérida, México",
+    dates: "05/2022 - Actualidad",
+    desc: "Desarrollando varios programas de ecommerce y administrativos.",
+    stack: [
+      "ReactJs",
+      "JavaScript",
+      "MongoDB",
+      "Laravel",
+      "MeteorJs",
+      "CSS",
+      "Bootstrap",
+      "Reactstrap",
+    ],
+  },
+  {
+    title: "Desarrollador Web Freelance",
+    subtitle: "Profesional independiente - Buenos Aires, Argentina",
+    dates: "04/2022 - 08/2022",
+    desc: "Desarrolle dos proyectos. Una ecommerce para una panaderia con ReactJs y FireBase y una pagina web estatica con jQuery para agencia de comunicacion.",
+    stack: ["ReactJs", "FireBase", "Bootstrap", "jQuery"],
+  },
+  {
+    title: "Gestion de Tiendas Ecommerce",
+    subtitle: "Profesional independiente - Internacional",
+    dates: "08/2020 - 05/2022",
+    desc: "Administrando varias tiendas ecommerce de productos variados a través de la modalidad de impresión bajo demanda a nivel internacional.",
+    stack: ["Investigacion de Mercado", "SEO", "Diseño"],
+  },
+  {
+    title: "Administrativo",
+    subtitle: "Gran Meliá Iguazú - Puerto Iguazú, Argentina",
+    dates: "09/2019 - 08/2021",
+    desc: "Empece como Host del restaurante pero a causa de la pandemia me cambiaron al area de finanzas donde me desempeñe en las tareas de auditoria, cobranzas y pago a proveedores.",
+    stack: [],
+  },
+  {
+    title: "Multi Tareas",
+    subtitle: "ZeaGold Eggs - Dunedin, Nueva Zelanda",
+    dates: "09/2017 - 05/2019",
+    desc: "Operario encargado de preparacion de pallets, evaluaciones de calidad, carga de datos en el sistema Ovotrack y carga de pallets al camion.",
+    stack: [],
+  },
+  {
+    title: "Soporte Tecnico IT",
+    subtitle: "GRUPO PLAZA - Buenos Aires, Argentina",
+    dates: "03/2015 - 06/2017",
+    desc: "Encargado del mantenimiento de redes y reparacion de computadoras.",
+    stack: [],
+  },
+];
+let itemsEstudios = [
+  {
+    title: "Carrera de Desarrollo Frontend React",
+    subtitle: "12/2021 - 11/2022 en Coderhouse, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+  {
+    title: "Tripulante de Cabina de Pasajeros, Aeronaútica",
+    subtitle:
+      "06/2018 - 12/2018 en Escuela Profesional Aeronavegantes, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+  {
+    title: "Bachillerato en Economía y Administración",
+    subtitle:
+      "03/2012 - 06/2017 en San Luis Instituto de Estudios, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+];
+let itemsCursos = [
+  {
+    title: "ReactJs",
+    subtitle: "03/2022 en Coderhouse, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+  {
+    title: "JavaScript",
+    subtitle: "02/2022 en Coderhouse, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+  {
+    title: "Desarrollo Web",
+    subtitle: "12/2021 en Coderhouse, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+  {
+    title: "Introduccion a Redes",
+    subtitle: "09/2015 en EducacionIT, Buenos Aires, Argentina",
+    dates: "",
+    desc: "",
+    stack: [],
+  },
+];
+---
+
+<BaseLayout
+  title="Luciano Canziani: Curriculum Vitae"
+  description="Hola! En esta seccion encontraras el curriculum vitae y trayecto del Front-End Developer Luciano Canziani."
+>
+<h1 class="text-5xl font-bold" style="margin-bottom: 25px;">CV de Luciano Canziani</h1>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold titles">Sobre mi</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    <p class="mb-10 text-left">
+      Soy Luciano Canziani, un apasionado desarrollador front-end con
+      experiencia en el desarrollo de software utilizando tecnologías como
+      JavaScript Vanilla, ReactJs, Mongo DB, FireBase y muchas mas (puedes ver
+      mi stack completo al final de esta pagina).
+    </p>
+    <p class="mb-10 text-left">
+      Tambien tengo un blog llamado <a
+        href="https://www.operationdev.com/"
+        style="color:#7777ff"
+        target="_blank">Operation Dev</a
+      > en el que documento mi progreso a través de la creación de cursos, tutoriales
+      y la resolución de errores.
+    </p>
+    <p class="mb-10 text-left">
+      Me gusta trabajar en proyectos dinámicos y siempre estoy buscando nuevas
+      formas de mejorar mis habilidades y conocimientos.
+    </p>
+  </div>
+
+  <div class="mb-5">
+    <h2 class="text-3xl w-full font-bold titles">Experiencia Laboral</h2>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLine items={items} />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold titles">Educacion Formal</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLine items={itemsEstudios} />
+    <!--  <TimeLine
+      title="Technician Information-Technology"
+      subtitle="2006 to 2009 at Osvaldo Herrera Polytechnic institute, Habana, Cuba"
+    /> -->
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold titles">Cursos</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLine items={itemsCursos} />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold titles">Idiomas</div>
+  </div>
+
+  <ul class="lista-idiomas">
+    <li>Español: Nativo</li>
+    <li>Ingles: Avanzado</li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold titles">Stack</div>
+  </div>
+
+  <Stacks items={stack} />
+</BaseLayout>

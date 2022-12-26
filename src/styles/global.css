@@ -1,0 +1,181 @@
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
+
+.quien-soy-title {
+    font-size: 42px;
+    font-weight: 500;
+    color: #f7f5f5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quien-soy-section {
+    font-size: 18px;
+    color: #f7f5f5;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.titles {
+    color: #f3f3f3;
+}
+
+.icon-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+    margin-top: 20px;
+}
+
+.icon-item img {
+    margin: 0px;
+    width: 65px;
+    height: auto;
+}
+
+.experience__data {
+    padding-bottom: 20px;
+}
+
+.timeline-title {
+    color: #fff;
+}
+
+.timeline-desc {
+    color: #ebebeb;
+}
+
+.stack-project-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lista-idiomas {
+    margin-bottom: 2.5rem;
+    color: #f3f3f3;
+}
+
+.stack-item {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.ReactJs {
+    background-color: #61DBFB;
+    color: #282C34;
+}
+
+.JavaScript {
+    background-color: #F7DF1E;
+    color: #1a202a;
+}
+
+.MongoDB {
+    background-color: #4DB33D;
+    color: #fffef2;
+}
+
+.Laravel {
+    background-color: #fb503b;
+    color: #fffef2;
+}
+
+.AstroJs {
+    background-color: #fb503b;
+    color: #fffef2;
+}
+
+.MeteorJs {
+    background-color: #ff5656;
+    color: #27272b;
+}
+
+.CSS {
+    background-color: #254bdd;
+    color: #fffef2;
+}
+
+.Bootstrap {
+    background-color: #7710f1;
+    color: #fffef2;
+}
+
+.Reactstrap {
+    background-color: #2f498b;
+    color: #fffef2;
+}
+
+.FireBase {
+    background-color: #f7c630;
+    color: #1a202a;
+}
+
+.jQuery {
+    background-color: #0865a6;
+    color: #fffef2;
+}
+
+.SEO {
+    background-color: #DB3236;
+    color: #fffef2;
+}
+
+.Investigacion {
+    background-color: #2f66c3;
+    color: #fffef2;
+}
+
+.Diseño {
+    background-color: #0049b7;
+    color: #d6faff;
+}
+
+.API {
+    background-color: #7710f1;
+    color: #fffef2;
+}
+
+.Auditoría {
+    background-color: #61DBFB;
+    color: #282C34;
+}
+
+.Cobranzas {
+    background-color: #F7DF1E;
+    color: #1a202a;
+}
+
+.proveedores {
+    background-color: #4DB33D;
+    color: #1a202a;
+}
+
+@media only screen and (max-width: 550px) {
+    .icon-item img {
+        margin: 0px;
+        width: 45px;
+        height: auto;
+    }
+    .landing-title {
+        font-size: 2.2rem;
+    }
+    .landing-subtitle {
+        font-size: 1.9rem;
+    }
+    .portafolio-title {
+        font-size: 2.5rem;
+    }
+}

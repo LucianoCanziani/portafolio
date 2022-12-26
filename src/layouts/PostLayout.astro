@@ -1,0 +1,77 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import BaseLayout from "./BaseLayout.astro";
+
+export interface Props {
+  content: {
+    title: string;
+    description: string;
+    pubDate?: string;
+    updatedDate?: string;
+    heroImage?: string;
+    altImage?: string;
+    gitHub?: string;
+    deploy?: string;
+    stack?: string;
+  };
+}
+
+const {
+  content: {
+    title,
+    description,
+    pubDate,
+    updatedDate,
+    heroImage,
+    altImage,
+    gitHub,
+    deploy,
+    stack,
+  },
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  image={heroImage}
+  altImage={altImage}
+>
+  <main class="md:flex md:justify-center">
+    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      {
+        heroImage && (
+          <img
+            src={heroImage}
+            alt={altImage}
+            class="w-full mb-6"
+            style="border-radius: 5px;"
+          />
+        )
+      }
+      <h1 class="title my-2 text-4xl font-bold">{title}</h1>
+      <span>Luciano Canziani -</span><time> {pubDate}</time>
+      <div class="icon-cont">
+        {
+          gitHub ? (
+            <a
+              href={gitHub}
+              target="_blank"
+              class="mx-3 icon-item"
+              aria-label="Github"
+            >
+              <img src="/github.png" alt="github repositorio" />
+              <span>GitHub</span>
+            </a>
+          ) : null
+        }
+        <a href={deploy} target="_blank" class="mx-3 icon-item">
+          <img src="/website.png" alt="sitio web en vivo" />
+          <span>Sitio Web</span>
+        </a>
+      </div>
+      <div class="divider my-2"></div>
+      <slot />
+    </article>
+  </main>
+</BaseLayout>
