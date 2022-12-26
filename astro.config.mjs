@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-modern-personal-website.netlify.app",
+  site: "https://lucianocanziani.netlify.app/",
   integrations: [mdx(), sitemap(), tailwind(), react(),embeds()],
   legacy: {
     astroFlavoredMarkdown: true,

@@ -11,12 +11,21 @@ const posts = (await Astro.glob("./proyectos/*.{md,mdx}")).sort(
 
 const last_posts = posts.slice(0, 20);
 ---
-
+<head>
+  <meta
+    name="google-site-verification"
+    content="w_jSGuqr33MU1KQJcXNHUvMESbXkaMFNTQJOAhGykvk"
+  />
+</head>
 <BaseLayout>
+
+
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Bienvenido a mi portafolio!</div>
     <h1 class="text-5xl font-bold landing-title">Soy Luciano Canziani</h1>
-    <h2 class="text-3xl py-3 font-bold landing-subtitle">Front-End Developer</h2>
+    <h2 class="text-3xl py-3 font-bold landing-subtitle">
+      Front-End Developer
+    </h2>
     <div class="py-2">
       <p class="text-lg">
         Bienvenido a mi portafolio! Me llamo Luciano y aqui encontraras una
