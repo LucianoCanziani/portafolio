@@ -6,7 +6,7 @@ pubDate: "Nov 28 2022"
 heroImage: "/proyectos/Whatsapp Link Generator.webp"
 altImage: "Whatsapp Link Generator"
 gitHub: ""
-deploy: "https://www.operationdev.com/tools/whatsapp-link-free-generator-create-custom-messages/"
+deploy: "https://operationdev.netlify.app/tools/whatsapp-link-free-generator-create-custom-messages/"
 stack: "ReactJs,AstroJs,CSS"
 setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
