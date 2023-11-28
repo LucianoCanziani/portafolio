@@ -108,6 +108,11 @@
     color: #fffef2;
 }
 
+.PHP {
+    background-color: #254bdd;
+    color: #fffef2;
+}
+
 .Bootstrap {
     background-color: #7710f1;
     color: #fffef2;
@@ -124,6 +129,11 @@
 }
 
 .jQuery {
+    background-color: #0865a6;
+    color: #fffef2;
+}
+
+.MySQL {
     background-color: #0865a6;
     color: #fffef2;
 }
