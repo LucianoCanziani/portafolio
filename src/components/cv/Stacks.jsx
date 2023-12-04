@@ -8,7 +8,8 @@ const TimeLine = ({ items }) => {
             {
                 items.map((stackName, indexStack) => {
                     return (
-                        <li key={indexStack} className={"stack-item " + stackName}>
+                        <li key={indexStack}
+                            className={`stack-item ${stackName == "Market research" ? "Investigacion" : stackName == "Graphic design" ? "Diseño" : stackName}`}>
                             {stackName}
                         </li>
                     )

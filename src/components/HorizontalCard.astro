@@ -10,10 +10,9 @@ const {
   badge,
   tags,
   stack,
+  date,
   target = "_blank",
 } = Astro.props;
-
-
 ---
 
 <div
@@ -31,6 +30,7 @@ const {
           {title}
           {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
         </h3>
+        {date}
         <StackBadge client:only="react" stack={stack} />
         <p class="py-1 text-1xl">{desc}</p>
         <div class="card-actions justify-end">

@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "To-Do List con ReactJs"
-description: "Este To-Do List fue parte de una entrevista tecnica en la cual tenia 24hs para completarlo. En el puedes agregar, remover, editar y filtrar tareas como gustes mientras ves olas agradables en el fondo."
+title: "To-Do List - Productivity Tool"
+description: "This To-Do List was part of a technical interview in which I had 24 hours to complete it. In it you can add, remove, edit and filter tasks as you like while seeing nice waves in the background."
 pubDate: "Nov 27 2022"
 heroImage: "/proyectos/To-Do List con ReactJs.webp"
 altImage: "To-Do List con ReactJs"
@@ -12,17 +12,17 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Este To-Do List fue parte de una entrevista tecnica en la cual tenia 24hs para completarlo.
+This To-Do List was part of a technical interview in which I had 24 hours to complete it.
 
-En el puedes agregar, remover, editar y filtrar tareas como gustes mientras ves olas agradables en el fondo.
+In it you can add, remove, edit and filter tasks as you like while seeing nice waves in the background.
 
-Tambien le agregue la quotable API para que empieces el dia con un mensaje inspirador.
+I also added the quotable API so you can start the day with an inspiring message.
 
-## Como Usar
+## How to use
 
-1. Escriba una tarea en la entrada y luego presione el botón "Añadir".
-2. Verifique la tarea completada, edítela o elimínela.
-3. Puede filtrar las tareas por completadas y no completadas.
+1. Write a task in the entry and then press the "Add" button.
+2. Check the completed task, edit or delete it.
+3. You can filter tasks by completed and not completed.
 
 ## Video
 
@@ -35,14 +35,14 @@ Tambien le agregue la quotable API para que empieces el dia con un mensaje inspi
 - react-simple-animate: (^3.5.0)
 - react-wavify: (^1.5.8)
 
-## Api Usada:
+## Api Used:
 
-Link: https://api.quotable.io
+https://api.quotable.io
 
 ## GitHub
 
-Repository Link: https://github.com/LucianoCanziani/to-do-list
+https://github.com/LucianoCanziani/to-do-list
 
 ## Deploy Netlify
 
-Deploy Link: https://to-do-list-luciano-canziani.netlify.app/
+https://to-do-list-luciano-canziani.netlify.app/

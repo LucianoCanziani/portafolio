@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Pokedex API"
-description: "Pokemon fue uno de mis dibujitos favoritos cuando era chico por lo que me trajo mucha nostalgia desarrollar este proyecto. Me ayudo mucho a reforzar mis conocimientos en React Js y a manejar datos en grandes cantidades."
+title: "Pokedex API - Web Game"
+description: "Pokemon was one of my favorite cartoons when I was a kid, so developing this project brought me a lot of nostalgia. It helped me a lot to strengthen my knowledge in React Js and to handle data in large quantities."
 pubDate: "Jul 28 2022"
 heroImage: "/proyectos/Pokedex API.webp"
 altImage: "Pokedex API"
@@ -12,25 +12,25 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Decidi desarrollar la Pokedex para mejorar mis habilidades a la hora de manejo de grandes cantidades de datos en React Js.
+I decided to develop the Pokedex to improve my skills in handling large amounts of data in React Js.
 
-## Que Aprendi en Este Proyecto?
+## What did I learn in this project?
 
-- Hacer llamadas a la API con "Axios" y luego a manipular esos datos.
-- Filtrado de datos atravez de inputs de busqueda por texto y por opciones.
-- Usar "Paginación" cuando tengo demasiados elementos para colocar en una página y ajusto el número de páginas a ellos cuando se filtran.
-- Implementar música y sonido con "Howler".
-- Algunos efectos de CSS interesantes como la barra de búsqueda.
+- Make API calls with "Axios" and then manipulate that data.
+- Data filtering through search inputs by text and by options.
+- Use "Pagination" when I have too many elements to place on one page and adjust the number of pages to them when filtered.
+- Implement music and sound with "Howler".
+- Some interesting CSS effects like the search bar.
 
-## API Usada:
+## API Used:
 
-Link: https://pokeapi.co/
+https://pokeapi.co/
 
 ## Video
 
 <YouTube id="https://www.youtube.com/watch?v=XrOArBntsqw&ab_channel=LucianoCanziani" />
 
-## Librerias y Frameworks:
+## Libraries and Frameworks:
 
 - react-lazy-load-image-component: ^1.5.4
 - axios: ^0.27.2
@@ -40,14 +40,14 @@ Link: https://pokeapi.co/
 
 ## GitHub
 
-Repositorio: https://github.com/LucianoCanziani/pokedex-api
+https://github.com/LucianoCanziani/pokedex-api
 
 ## Deploy Netlify
 
-Deploy Link: https://pokedex-luciano-canziani.netlify.app/
+https://pokedex-luciano-canziani.netlify.app/
 
-## Como Usar:
+## How to use:
 
-1. Presione el botón de inicio para acceder al pokedex.
-2. Navegue por el Pokedex y filtre los Pokemones por tipo y nombre y seleccione su Pokémon favorito para obtener más información sobre él.
-3. Detalle del Pokémon: ahi podras ver más información sobre ese Pokémon.
+1. Press the home button to access the pokedex.
+2. Browse the Pokedex and filter Pokemon by type and name and select your favorite Pokemon to learn more about it.
+3. Pokemon details: there you can see more information about that Pokemon.

@@ -1,35 +1,32 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
-import BaseHead from "../components/BaseHead.astro";
 
 const posts = (await Astro.glob("./proyectos/*.{md,mdx}")).sort(
   (a, b) =>
     new Date(b.frontmatter.pubDate).valueOf() -
     new Date(a.frontmatter.pubDate).valueOf()
 );
-
-const last_posts = posts.slice(0, 20);
 ---
-<head>
-  <meta
-    name="google-site-verification"
-    content="w_jSGuqr33MU1KQJcXNHUvMESbXkaMFNTQJOAhGykvk"
-  />
-</head>
-<BaseLayout>
 
-
+<BaseLayout
+  title="Luciano Canziani Portfolio"
+  description=`Hello! My name is Luciano and I am a Web Developer. I have experience in
+      developing projects of international impact, collaborating with
+      professionals from various nations.`
+>
   <div class="pb-12 mt-5">
-    <div class="text-xl py-1">Bienvenido a mi portafolio!</div>
-    <h1 class="text-5xl font-bold landing-title">Soy Luciano Canziani</h1>
-    <h2 class="text-3xl py-3 font-bold landing-subtitle">
-      Full-Stack Web Developer
-    </h2>
+    <h1 class="text-5xl font-bold portafolio-title">Luciano Canziani</h1>
+    <h2 class="text-3xl py-3 font-bold">Full-Stack Web Developer</h2>
     <div class="py-2">
+      <p class="text-lg" style="margin-bottom: 20px;">
+        Hello! My name is Luciano and I am a Web Developer. I have experience in
+        developing projects of international impact, collaborating with
+        professionals from various nations.
+      </p>
       <p class="text-lg">
-        Bienvenido a mi portafolio! Me llamo Luciano y aqui encontraras una
-        recopilacion de mis proyectos en detalle y mi curriculum vitae.
+        I am looking for projects that I am excited to be a part of and
+        challenges that will help me grow.
       </p>
     </div>
     <div class="mt-8">
@@ -37,17 +34,16 @@ const last_posts = posts.slice(0, 20);
         class="btn"
         href="https://www.linkedin.com/in/luciano-canziani/"
         target="_blank"
-        style="background-color: #f2f7ff;
-      color: #000000;"
+        style="background-color: #f2f7ff; color: #000;"
       >
-        Conectemos!</a
+        Let's Connect!</a
       >
     </div>
   </div>
 
   <div>
     <div class="text-3xl w-full font-bold mb-2">
-      Proyectos {"</>"}
+      Projects {"</>"}
     </div>
   </div>
 
@@ -60,6 +56,7 @@ const last_posts = posts.slice(0, 20);
           desc={post.frontmatter.description}
           url={post.url}
           stack={post.frontmatter.stack}
+          date={post.frontmatter.pubDate}
           target="_self"
         />
         <div class="divider my-0" />

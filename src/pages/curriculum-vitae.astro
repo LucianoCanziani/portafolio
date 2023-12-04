@@ -11,10 +11,10 @@ let stack = [
   "PHP",
   "MySQL",
   "MeteorJs",
-  "CSS",
+  /* "CSS", */
   "Bootstrap",
-  "Reactstrap",
-  "AstroJs",
+  /* "Reactstrap", */
+  /* "AstroJs", */
   "jQuery",
   "FireBase",
   "SEO",
@@ -23,76 +23,70 @@ let items = [
   {
     title: "Full-Stack Web Developer",
     subtitle: "ATIVAR Desarrollo de Software - Mérida, México",
-    dates: "05/2022 - Actualidad",
-    desc: "Desarrollando varios programas de ecommerce y administrativos.",
-    stack: [
-      "ReactJs",
-      "JavaScript",
-      "MongoDB",
-      "Laravel",
-      "MySQL",
-      "MeteorJs",
-      "CSS",
-      "Bootstrap",
-      "Reactstrap",
-    ],
+    dates: "05/2022 - Present",
+    desc: `Developing websites for companies in the United States and Mexico for the
+development of global ecommerce projects, including products, legal
+services and administrative solutions`,
+    stack: ["ReactJs", "JavaScript", "MongoDB", "Laravel", "MySQL", "MeteorJs"],
   },
   {
-    title: "Desarrollador Web Freelance",
-    subtitle: "Profesional independiente - Buenos Aires, Argentina",
+    title: "Web Developer",
+    subtitle: "",
     dates: "04/2022 - 08/2022",
-    desc: "Desarrolle dos proyectos. Una ecommerce para una panaderia con ReactJs y FireBase y una pagina web estatica con jQuery para agencia de comunicacion.",
+    desc: "2 freelance projects consisting of a static website and an ecommerce.",
     stack: ["ReactJs", "FireBase", "Bootstrap", "jQuery"],
   },
   {
-    title: "Gestion de Tiendas Ecommerce",
-    subtitle: "Profesional independiente - Internacional",
+    title: "Ecommerce Stores",
+    subtitle: "",
     dates: "08/2020 - 05/2022",
-    desc: "Administrando varias tiendas ecommerce de productos variados a través de la modalidad de impresión bajo demanda a nivel internacional.",
-    stack: ["Investigacion de Mercado", "SEO", "Diseño"],
+    desc: "Managing several e-commerce stores of varied products through the print-ondemand modality at an international level.",
+    stack: [
+      /* "Market research", "SEO", "Graphic design" */
+    ],
   },
   {
-    title: "Administrativo",
+    title: "Administrative",
     subtitle: "Gran Meliá Iguazú - Puerto Iguazú, Argentina",
     dates: "09/2019 - 08/2021",
-    desc: "Empece como Host del restaurante pero a causa de la pandemia me cambiaron al area de finanzas donde me desempeñe en las tareas de auditoria, cobranzas y pago a proveedores.",
+    desc: "Covering the areas of payment to suppliers, collections and auditing",
     stack: [],
   },
   {
-    title: "Multi Tareas",
+    title: "Multitask",
     subtitle: "ZeaGold Eggs - Dunedin, Nueva Zelanda",
     dates: "09/2017 - 05/2019",
-    desc: "Operario encargado de preparacion de pallets, evaluaciones de calidad, carga de datos en el sistema Ovotrack y carga de pallets al camion.",
+    desc: "Fulfilling different operational roles in the production line.",
     stack: [],
   },
   {
-    title: "Soporte Tecnico IT",
-    subtitle: "GRUPO PLAZA - Buenos Aires, Argentina",
+    title: "IT Support",
+    subtitle: "Plaza Group - Buenos Aires City, Argentina",
     dates: "03/2015 - 06/2017",
-    desc: "Encargado del mantenimiento de redes y reparacion de computadoras.",
+    desc: "In charge of network maintenance and computer repair.",
     stack: [],
   },
 ];
 let itemsEstudios = [
   {
-    title: "Carrera de Desarrollo Frontend React",
-    subtitle: "12/2021 - 11/2022 en Coderhouse, Buenos Aires, Argentina",
+    title: "Senior Technician in Web Design and Programming",
+    subtitle:
+      "03/2023 - Present, Da Vinci School, Buenos Aires City, Argentina",
     dates: "",
     desc: "",
     stack: [],
   },
   {
-    title: "Tripulante de Cabina de Pasajeros, Aeronaútica",
+    title: "University Expert in PHP and MySQL",
     subtitle:
-      "06/2018 - 12/2018 en Escuela Profesional Aeronavegantes, Buenos Aires, Argentina",
+      "11/2023 - Present, National Technological University, Buenos Aires City, Argentina",
     dates: "",
     desc: "",
     stack: [],
   },
   {
-    title: "Bachillerato en Economía y Administración",
-    subtitle:
-      "03/2012 - 06/2017 en San Luis Instituto de Estudios, Buenos Aires, Argentina",
+    title: "Front-End React Development Career",
+    subtitle: "12/2021 - 11/2022, Coderhouse, Buenos Aires City, Argentina",
     dates: "",
     desc: "",
     stack: [],
@@ -100,29 +94,15 @@ let itemsEstudios = [
 ];
 let itemsCursos = [
   {
-    title: "ReactJs",
-    subtitle: "03/2022 en Coderhouse, Buenos Aires, Argentina",
+    title: "SEO - Search Engine Optimization",
+    subtitle: "03/2022, Coderhouse, Buenos Aires City, Argentina",
     dates: "",
     desc: "",
     stack: [],
   },
   {
-    title: "JavaScript",
-    subtitle: "02/2022 en Coderhouse, Buenos Aires, Argentina",
-    dates: "",
-    desc: "",
-    stack: [],
-  },
-  {
-    title: "Desarrollo Web",
-    subtitle: "12/2021 en Coderhouse, Buenos Aires, Argentina",
-    dates: "",
-    desc: "",
-    stack: [],
-  },
-  {
-    title: "Introduccion a Redes",
-    subtitle: "09/2015 en EducacionIT, Buenos Aires, Argentina",
+    title: "Intensive English Course",
+    subtitle: "10/2017, University of Otago, Dunedin City, New Zealand",
     dates: "",
     desc: "",
     stack: [],
@@ -132,36 +112,31 @@ let itemsCursos = [
 
 <BaseLayout
   title="Luciano Canziani: Curriculum Vitae"
-  description="Hola! En esta seccion encontraras el curriculum vitae y trayecto del Full-Stack Web Developer Luciano Canziani."
+  description=`Hello! My name is Luciano and I am a Web Developer. I have experience in
+      developing projects of international impact, collaborating with
+      professionals from various nations.`
 >
-<h1 class="text-5xl font-bold" style="margin-bottom: 25px;">CV de Luciano Canziani</h1>
+  <h1 class="text-5xl font-bold" style="margin-bottom: 25px;">
+    Luciano Canziani CV
+  </h1>
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Sobre mi</div>
+    <div class="text-3xl w-full font-bold titles">About me</div>
   </div>
 
   <div class="mb-10 text-justify">
-    <p class="mb-10 text-left">
-      Soy Luciano Canziani, un apasionado desarrollador Full-Stack con
-      experiencia en el desarrollo de software utilizando tecnologías como
-      JavaScript Vanilla, ReactJs, Mongo DB, PHP, Laravel, MySQL y muchas mas (puedes ver
-      mi stack completo al final de esta pagina).
+    <p class="text-lg" style="margin-bottom: 20px;">
+      Hello! My name is Luciano and I am a Web Developer. I have experience in
+      developing projects of international impact, collaborating with
+      professionals from various nations.
     </p>
-    <p class="mb-10 text-left">
-      Tambien tengo un blog llamado <a
-        href="https://www.operationdev.com/"
-        style="color:#7777ff"
-        target="_blank">Operation Dev</a
-      > en el que documento mi progreso a través de la creación de cursos, tutoriales
-      y la resolución de errores.
-    </p>
-    <p class="mb-10 text-left">
-      Me gusta trabajar en proyectos dinámicos y siempre estoy buscando nuevas
-      formas de mejorar mis habilidades y conocimientos.
+    <p class="text-lg">
+      I am looking for projects that I am excited to be a part of and challenges
+      that will help me grow.
     </p>
   </div>
 
   <div class="mb-5">
-    <h2 class="text-3xl w-full font-bold titles">Experiencia Laboral</h2>
+    <h2 class="text-3xl w-full font-bold titles">Work Experience</h2>
   </div>
 
   <div class="time-line-container mb-10">
@@ -169,7 +144,7 @@ let itemsCursos = [
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Educacion Formal</div>
+    <div class="text-3xl w-full font-bold titles">Education</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
@@ -181,7 +156,7 @@ let itemsCursos = [
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Cursos</div>
+    <div class="text-3xl w-full font-bold titles">Courses</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
@@ -189,12 +164,12 @@ let itemsCursos = [
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Idiomas</div>
+    <div class="text-3xl w-full font-bold titles">Languages</div>
   </div>
 
   <ul class="lista-idiomas">
-    <li>Español: Nativo</li>
-    <li>Ingles: Avanzado</li>
+    <li>Spanish: Native</li>
+    <li>English: Advance</li>
   </ul>
 
   <div class="mb-5">

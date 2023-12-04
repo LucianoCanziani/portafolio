@@ -1,26 +1,26 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Whatsapp Link Generator"
-description: "Whatsapp Link Generator es una herramienta gratuita que cree para mi sitio web Operation Dev. Con ella podes crear links que redirigen a chats de celulares y tambien con un mensaje predefinido."
+title: "Whatsapp Link Generator - Management Tool"
+description: "Whatsapp Link Generator is a free tool that I created for my Operation Dev website. With it you can create links that redirect to cell phone chats and also with a predefined message."
 pubDate: "Nov 28 2022"
 heroImage: "/proyectos/Whatsapp Link Generator.webp"
 altImage: "Whatsapp Link Generator"
 gitHub: ""
 deploy: "https://operationdev.netlify.app/tools/whatsapp-link-free-generator-create-custom-messages/"
-stack: "ReactJs,AstroJs,CSS"
+stack: "ReactJs,AstroJs,API"
 setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Whatsapp Link Generator es una herramienta gratuita que cree para mi sitio web <a hrfe="https://www.operationdev.com/" target="_blank">Operation Dev</a>. Con ella podes crear links que redirigen a chats de celulares y tambien con un mensaje predefinido.
+Whatsapp Link Generator is a free tool. With it you can create links that redirect to cell phone chats and also with a predefined message.
 
-## Que Aprendi
+## What I learned
 
-Al crear esta herramienta aprendi a usar el lenguaje URL-encoding para convertir caracteres a link y viceversa.
+When creating this tool I learned to use the URL-encoding language to convert characters to links and vice versa.
 
 ## Deploy
 
-Deploy Link: https://www.operationdev.com/tools/whatsapp-link-free-generator-create-custom-messages/
+https://operationdev.netlify.app/tools/whatsapp-link-free-generator-create-custom-messages/
 
 ## Video
 

@@ -1,10 +1,10 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Simulador de Bateria"
-description: "Simulador de batería. Con el puedes emular los sonidos de una batería presionando desde A hasta K en tu teclado y también haciendo click o tocandolos en la pantalla."
+title: "Battery Simulator - Web Game"
+description: "Battery simulator. With it you can emulate drum sounds by pressing A to K on your keyboard and also clicking or tapping them on the screen."
 pubDate: "Mar 24 2022"
 heroImage: "/proyectos/Simulador de Bateria.webp"
-altImage: "Simulador de Bateria"
+altImage: "Battery Simulator"
 gitHub: "https://github.com/LucianoCanziani/Drum-Kit-Simulator"
 deploy: "https://main--drumkitsimulator.netlify.app/"
 stack: "JavaScript,CSS"
@@ -12,19 +12,19 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Simulador de batería. Con el puedes emular los sonidos de una batería presionando desde "A" hasta "K" en tu teclado y también haciendo click o tocandolos en la pantalla.
+Battery simulator. With it you can emulate drum sounds by pressing from "A" to "K" on your keyboard and also clicking or tapping them on the screen.
 
-Este proyecto forma parte del "30 Day Vanilla JS Coding Challenge"
+This project is part of the "30 Day Vanilla JS Coding Challenge"
 
-Enlace del desafío: https://javascript30.com/
+Challenge link: https://javascript30.com/
 
 ## GitHub
 
-Enlace del repositorio: https://github.com/LucianoCanziani/Drum-Kit-Simulator
+https://github.com/LucianoCanziani/Drum-Kit-Simulator
 
 ## Deploy Netlify
 
-Enlace del Deploy: https://main--drumkitsimulator.netlify.app/
+https://main--drumkitsimulator.netlify.app/
 
 ## Video
 

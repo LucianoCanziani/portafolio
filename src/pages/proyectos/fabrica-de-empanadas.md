@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Fabrica de Empanadas"
-description: "Proyecto final para el curso de React Js en CoderHouse. Consiste en una tienda en línea inspirada en la aplicación de entrega Pedidos Ya."
+title: "Fabrica de Empanadas - Delivery Ecommerce"
+description: 'Final project for the React Js course at CoderHouse. It consists of an online store inspired by the Orders "Pedidos Ya!" application.'
 pubDate: "Jun 15 2022"
 heroImage: "/proyectos/Fabrica de Empanadas.webp"
 altImage: "Fabrica de Empanadas"
@@ -10,11 +10,11 @@ deploy: "https://fabricadeempanadas.netlify.app/"
 stack: "ReactJs,FireBase"
 ---
 
-Este es mi proyecto final para el curso de React Js en CoderHouse. Consiste en una tienda en línea inspirada en la aplicación de entrega Pedidos Ya.
+Final project for the React Js course at CoderHouse. It consists of an online store inspired by the Orders "Pedidos Ya!" application.
 
-Algunas de las librerías y frameworks utilizados en este proyecto son Route, Hooks y el uso de Firebase como base de datos en tiempo real.
+Some of the libraries and frameworks used in this project are Route, Hooks and the use of Firebase as a real-time database.
 
-## Librerias y Frameworks:
+## Libraries and Frameworks:
 
 - firebase: ^9.6.11
 - react-router-dom: ^6.3.0
@@ -23,15 +23,15 @@ Algunas de las librerías y frameworks utilizados en este proyecto son Route, Ho
 
 ## GitHub
 
-Enlace del repositorio: https://github.com/LucianoCanziani/fabrica-de-empanadas
+https://github.com/LucianoCanziani/fabrica-de-empanadas
 
 ## Deploy Netlify
 
-Enlace del Deploy: https://fabricadeempanadas.netlify.app/
+https://fabricadeempanadas.netlify.app/
 
-## Como usar:
+## How to use:
 
-1. Navega por la tienda y filtra por categoría. Selecciona las empanadas deseadas y agrégalas al carrito.
-2. Ve al carrito de compras y revisa los elementos seleccionados.
-3. Rellena tus datos de dirección en el formulario de pago.
-4. Completa la compra haciendo clic en el botón rojo que dice "Enviar pedido".
+1. Browse the store and filter by category. Select the desired empanadas and add them to the cart.
+2. Go to the shopping cart and review the selected items.
+3. Fill in your address information in the payment form.
+4. Complete the purchase by clicking the red button that says "Submit order".
