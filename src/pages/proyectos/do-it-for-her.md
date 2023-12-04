@@ -13,7 +13,6 @@ stack: "NextJs"
 Create your own version of the Simpsons "Do it for her" poster with this incredible free tool.
 
 This site was developed by me and designed by <a href="https://www.linkedin.com/in/julieta-carmona/" target="_blank">Julieta Carmona</a>.
-.
 
 
 ## Deploy Vercel
