@@ -178,6 +178,12 @@
     color: #1a202a;
 }
 
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 550px) {
     .icon-item img {
         margin: 0px;
