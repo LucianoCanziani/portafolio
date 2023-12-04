@@ -168,6 +168,11 @@
     color: #1a202a;
 }
 
+.NextJs {
+    background-color: #000;
+    color: #f9f9f9;
+}
+
 .proveedores {
     background-color: #4DB33D;
     color: #1a202a;
@@ -179,12 +184,15 @@
         width: 45px;
         height: auto;
     }
+
     .landing-title {
         font-size: 2.2rem;
     }
+
     .landing-subtitle {
         font-size: 1.9rem;
     }
+
     .portafolio-title {
         font-size: 2.5rem;
     }
