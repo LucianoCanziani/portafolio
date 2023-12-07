@@ -16,7 +16,11 @@ Whatsapp Link Generator is a free tool. With it you can create links that redire
 
 ## What I learned
 
-When creating this tool I learned to use the URL-encoding language to convert characters to links and vice versa.
+- Creating WhatsApp API links for instant messaging with personalized content.
+
+- Using the URL-encoding language to convert characters to links and vice versa.
+
+
 
 ## Deploy
 
