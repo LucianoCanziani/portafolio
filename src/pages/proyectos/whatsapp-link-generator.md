@@ -20,7 +20,7 @@ When creating this tool I learned to use the URL-encoding language to convert ch
 
 ## Deploy
 
-https://operationdev.netlify.app/tools/whatsapp-link-free-generator-create-custom-messages/
+https://whatsapp-link-generator-luciano.netlify.app/
 
 ## Video
 
