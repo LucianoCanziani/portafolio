@@ -7,7 +7,7 @@ heroImage: "/proyectos/Whatsapp Link Generator.webp"
 altImage: "Whatsapp Link Generator"
 gitHub: ""
 deploy: "https://whatsapp-link-generator-lucianocanziani.vercel.app/"
-stack: "ReactJs,AstroJs,API"
+stack: "NextJs,API"
 setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
