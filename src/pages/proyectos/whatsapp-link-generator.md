@@ -14,6 +14,12 @@ setup: |
 
 Whatsapp Link Generator is a free tool. With it you can create links that redirect to cell phone chats and also with a predefined message.
 
+- Used by several businesses.
+- A URL-encoding translator was created for all types of characters and emojis that the user wants to convert
+into a link.
+- Developed with NextJs, Whatsapp API, JavaScript and css
+
+
 ## What I learned
 
 - Creating WhatsApp API links for instant messaging with personalized content.
