@@ -7,6 +7,12 @@ const posts = (await Astro.glob("./proyectos/*.{md,mdx}")).sort(
     new Date(b.frontmatter.pubDate).valueOf() -
     new Date(a.frontmatter.pubDate).valueOf()
 );
+
+const postsWork = (await Astro.glob("./projects-work/*.{md,mdx}")).sort(
+  (a, b) =>
+    new Date(b.frontmatter.pubDate).valueOf() -
+    new Date(a.frontmatter.pubDate).valueOf()
+);
 ---
 
 <BaseLayout
@@ -40,10 +46,31 @@ const posts = (await Astro.glob("./proyectos/*.{md,mdx}")).sort(
       >
     </div>
   </div>
-
   <div>
     <div class="text-3xl w-full font-bold mb-2">
-      Projects {"</>"}
+      Work Projects {"</>"}
+    </div>
+  </div>
+
+  {
+    postsWork.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.frontmatter.title}
+          img={post.frontmatter.heroImage}
+          desc={post.frontmatter.description}
+          url={post.url}
+          stack={post.frontmatter.stack}
+          date={post.frontmatter.pubDate}
+          target="_self"
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">
+      Personal Projects {"</>"}
     </div>
   </div>
 
