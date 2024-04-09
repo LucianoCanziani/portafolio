@@ -1,22 +1,24 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: "Care Mobile - Service E-Commerce"
-description: ""
+description: "Franchise of cell phone, tablet and computer repair stores in 6 locations."
 pubDate: "Nov 28 2022"
 heroImage: "/proyectos/care-mobile.png"
 altImage: "Care Mobile"
 gitHub: ""
 deploy: "https://caremobile.mx/"
-stack: "Laravel,MySQL,JavaScript"
+stack: "Laravel,PHP,MySQL,JavaScript"
 ---
 
-Whatsapp Link Generator is a free tool. With it you can create links that redirect to cell phone chats and also with a predefined message.
+Franchise of cell phone, tablet and computer repair stores in 6 locations.
 
-- Used by several businesses.
-- A URL-encoding translator was created for all types of characters and emojis that the user wants to convert
-into a link.
-- Developed with NextJs, Whatsapp API, JavaScript and css
+## What I did?
 
+- Developed the blog feature from scratch in the dashboard and display of articles in the websites. In the dashboard gives the options to optimize SEO for each article.
+- Configurations to optimize the SEO for every page.
+- Developed new steps, notifications and promos to increase the funnel flow and generate more sales.
+- Google Maps API.
+- Delivery quote based on the customer's distance from the nearest store
 
 ## Deploy
 

@@ -64,10 +64,11 @@ const postsWork = (await Astro.glob("./projects-work/*.{md,mdx}")).sort(
           date={post.frontmatter.pubDate}
           target="_self"
         />
-        <div class="divider my-0" />
+        <div class="divider my-0 " />
       </>
     ))
   }
+  <div class="divider my-0 mb_31"></div>
   <div>
     <div class="text-3xl w-full font-bold mb-2">
       Personal Projects {"</>"}

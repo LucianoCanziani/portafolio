@@ -1,22 +1,21 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Care Mobile - Service E-Commerce"
-description: ""
+title: "Ecco Beauty - Product E-Commerce"
+description: "Ecco is an international professional line of beauty products created for the world of styling."
 pubDate: "Nov 28 2022"
 heroImage: "/proyectos/ecco-beauty.png"
 altImage: "Ecco Beauty"
 gitHub: ""
 deploy: "https://eccobeauty.mx/"
-stack: "Laravel,MySQL,JavaScript"
+stack: "Laravel,PHP,MySQL,JavaScript"
 ---
 
-Whatsapp Link Generator is a free tool. With it you can create links that redirect to cell phone chats and also with a predefined message.
+Ecco is an international professional line of beauty products created for the world of styling.
 
-- Used by several businesses.
-- A URL-encoding translator was created for all types of characters and emojis that the user wants to convert
-into a link.
-- Developed with NextJs, Whatsapp API, JavaScript and css
+## What I did?
 
+- Complete re-design of the site, figma-dev => code.
+- Implementation of coupons & promo codes.
 
 ## Deploy
 

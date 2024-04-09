@@ -57,6 +57,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
+}
+
+.stack-cont {
+    min-height: 41px;
+}
+
+.sidebar-cont {
+    min-width: 304px;
+    height: 100vh;
 }
 
 .lista-idiomas {
@@ -201,5 +211,54 @@
 
     .portafolio-title {
         font-size: 2.5rem;
+    }
+}
+
+img {
+    animation: lazy_loading 1s ease-in-out backwards;
+}
+
+.experience__data {
+    animation: lazy_loading 1s ease-in-out backwards;
+}
+
+.horizontal_card {
+    animation: lazy_loading 1s ease-in-out backwards;
+}
+
+main {
+    animation: lazy_loading 1s ease-in-out backwards;
+}
+
+.drawer-side {
+    animation: lazy_loading 1s ease-in-out backwards;
+    display: flex;
+    height: 100%;
+}
+
+.profile_img_cont {
+    min-height: 172px;
+}
+
+.mb_31 {
+    margin-bottom: 31px !important;
+}
+
+/* .stack-item {
+    animation: lazy_loading 1s ease-in-out backwards;
+} */
+
+.post-img {
+    height: 98px;
+    max-width: 208px;
+}
+
+@keyframes lazy_loading {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
     }
 }

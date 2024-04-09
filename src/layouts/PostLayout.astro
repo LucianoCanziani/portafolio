@@ -39,16 +39,18 @@ const {
 >
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      <!--    <div class="mb-6" style="min-height: 305px;width:100%;"> -->
       {
         heroImage && (
           <img
             src={heroImage}
             alt={altImage}
-            class="w-full mb-6"
+            class="lazy_loading w-full mb-6"
             style="border-radius: 5px;"
           />
         )
       }
+      <!--    </div> -->
       <h1 class="title my-2 text-4xl font-bold">{title}</h1>
       <span>Luciano Canziani -</span><time> {pubDate}</time>
       <div class="icon-cont">
