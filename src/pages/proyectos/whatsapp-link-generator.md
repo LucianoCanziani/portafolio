@@ -7,7 +7,7 @@ heroImage: "/proyectos/Whatsapp Link Generator.webp"
 altImage: "Whatsapp Link Generator"
 gitHub: ""
 deploy: "https://whatsapp-link-generator-luciano.netlify.app/"
-stack: "NextJs,API"
+stack: "ReactJs,API"
 setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
@@ -17,7 +17,7 @@ Whatsapp Link Generator is a free tool. With it you can create links that redire
 - Used by several businesses.
 - A URL-encoding translator was created for all types of characters and emojis that the user wants to convert
 into a link.
-- Developed with NextJs, Whatsapp API, JavaScript and css
+- Developed with ReactJs, Whatsapp API, JavaScript and css
 
 
 ## What I learned

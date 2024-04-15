@@ -67,10 +67,14 @@ const {
             </a>
           ) : null
         }
-        <a href={deploy} target="_blank" class="mx-3 icon-item">
-          <img src="/website.png" alt="Live Website" />
-          <span>Live Website</span>
-        </a>
+        {
+          deploy ? (
+            <a href={deploy} target="_blank" class="mx-3 icon-item">
+              <img src="/website.png" alt="Live Website" />
+              <span>Live Website</span>
+            </a>
+          ) : null
+        }
       </div>
       <div class="divider my-2"></div>
       <slot />
