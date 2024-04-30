@@ -7,7 +7,7 @@ heroImage: "/proyectos/labs.png"
 altImage: "Real State Lab"
 gitHub: ""
 deploy: ""
-stack: "Laravel,PHP,MySQL,JavaScript"
+stack: "ReactJs,MeteorJs,MongoDB,JavaScript"
 ---
 
 Platform where real estate agencies can create several stores, upload their properties, and assign representatives to manage them.
