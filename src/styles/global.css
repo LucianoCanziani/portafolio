@@ -108,12 +108,22 @@
     color: #fffef2;
 }
 
+.Svelte {
+    background-color: #ff3e00;
+    color: #fffef2;
+}
+
 .MeteorJs {
     background-color: #ff5656;
     color: #27272b;
 }
 
 .CSS {
+    background-color: #254bdd;
+    color: #fffef2;
+}
+
+.Chrome {
     background-color: #254bdd;
     color: #fffef2;
 }
