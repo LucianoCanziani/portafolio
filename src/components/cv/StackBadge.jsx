@@ -14,7 +14,7 @@ const StackBadge = ({ stack }) => {
             {
                 stackArray.map((stackName, indexStack) => {
                     return (
-                        <li key={indexStack} className={"stack-item " + stackName}>
+                        <li key={indexStack} className={"stack-item " + stackName.replaceAll(" ", "")}>
                             {stackName}
                         </li>
                     )

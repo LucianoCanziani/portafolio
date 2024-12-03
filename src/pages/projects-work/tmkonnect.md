@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "TMKonnect"
+title: "TMKonnect - LawTech"
 description: "TMKonnect does easy and efficient online trademark procedures worldwide, while providing convenient and immediate quotes, allowing for bulk fillings to be made automatically."
 pubDate: "Dec 23 2023"
 heroImage: "/proyectos/tmk.png"

@@ -108,6 +108,11 @@
     color: #fffef2;
 }
 
+.TypeScript {
+    background-color: #007acc;
+    color: #fffef2;
+}
+
 .Svelte {
     background-color: #ff3e00;
     color: #fffef2;
@@ -146,6 +151,11 @@
 .FireBase {
     background-color: #f7c630;
     color: #1a202a;
+}
+
+.HeadlessWordpress {
+    background-color: #01a0d6;
+    color: #1f1e1d;
 }
 
 .jQuery {
