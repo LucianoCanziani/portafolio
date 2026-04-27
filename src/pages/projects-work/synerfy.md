@@ -8,6 +8,7 @@ altImage: "Hey Synerfy"
 gitHub: ""
 deploy: "https://heysynerfy.com"
 stack: "Laravel,PHP,MySQL,ReactJs"
+featured: true
 ---
 
 Synerfy is a comprehensive platform that manages, analyzes and optimizes events by combining management tools with a networking-focused social network.

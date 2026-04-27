@@ -2,13 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 
-const posts = (await Astro.glob("./proyectos/*.{md,mdx}")).sort(
+const posts = Object.values(import.meta.glob("./proyectos/*.{md,mdx}", { eager: true })).sort(
   (a, b) =>
     new Date(b.frontmatter.pubDate).valueOf() -
     new Date(a.frontmatter.pubDate).valueOf()
 );
 
-const postsWork = (await Astro.glob("./projects-work/*.{md,mdx}")).sort(
+const postsWork = Object.values(import.meta.glob("./projects-work/*.{md,mdx}", { eager: true })).sort(
   (a, b) =>
     new Date(b.frontmatter.pubDate).valueOf() -
     new Date(a.frontmatter.pubDate).valueOf()
@@ -25,7 +25,7 @@ const postsWork = (await Astro.glob("./projects-work/*.{md,mdx}")).sort(
     <h1 class="text-5xl font-bold portafolio-title">Luciano Canziani</h1>
     <h2 class="text-3xl py-3 font-bold">Full-Stack Web Developer</h2>
     <div class="py-2">
-      <p class="text-lg" style="margin-bottom: 20px;">
+      <p class="text-lg mb-5">
         Hello! My name is Luciano and I am a Web Developer. I have experience in
         developing projects of international impact, collaborating with
         professionals from various nations.
@@ -37,10 +37,9 @@ const postsWork = (await Astro.glob("./projects-work/*.{md,mdx}")).sort(
     </div>
     <div class="mt-8">
       <a
-        class="btn"
+        class="btn bg-blue-50 text-black hover:bg-blue-100 border-none shadow-md transition-transform hover:-translate-y-0.5"
         href="https://www.linkedin.com/in/luciano-canziani/"
         target="_blank"
-        style="background-color: #f2f7ff; color: #000;"
       >
         Let's Connect!</a
       >
