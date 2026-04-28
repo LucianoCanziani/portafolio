@@ -27,9 +27,9 @@ const {
         {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
       </h3>
       <div class="stack-cont">
-        <StackBadge client:only="react" stack={stack} />
+        <StackBadge client:load stack={stack} />
       </div>
-      <p class="text-sm text-neutral-400 line-clamp-2">{desc}</p>
+      <p class="text-sm text-neutral-400 line-clamp-3">{desc}</p>
     </div>
   </a>
 </div>

@@ -40,8 +40,8 @@ const funProjects = [...posts, ...postsWork]
 
 <BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION} lang={lang}>
   <div class="pb-12 mt-5">
-    <h1 class="text-5xl font-bold portafolio-title">Luciano Canziani</h1>
-    <h2 class="text-3xl py-3 font-bold">Full-Stack Web Developer</h2>
+    <h1 class="text-4xl sm:text-5xl font-bold">Luciano Canziani</h1>
+    <h2 class="text-2xl sm:text-3xl py-3 font-bold">Full-Stack Web Developer</h2>
     <div class="py-2">
       <p class="text-lg mb-5">{t('index.intro.p1')}</p>
       <p class="text-lg">{t('index.intro.p2')}</p>
@@ -55,7 +55,7 @@ const funProjects = [...posts, ...postsWork]
     </div>
   </div>
 
-  <div class="mb-14">
+  <div class="mb-8 md:mb-14">
     <div class="flex items-center justify-between mb-8">
       <div class="text-4xl font-black text-white flex items-center gap-4">
         {t('index.featured.title')}
@@ -66,7 +66,7 @@ const funProjects = [...posts, ...postsWork]
       </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
       {
         featuredProjects.map((post) => (
           <FeaturedCard
@@ -89,7 +89,7 @@ const funProjects = [...posts, ...postsWork]
       <span class="text-2xl">🎮</span>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
       {
         funProjects.map((post) => (
           <FeaturedCard
@@ -125,11 +125,11 @@ const funProjects = [...posts, ...postsWork]
           date={post.frontmatter.pubDate}
           target="_self"
         />
-        <div class="divider my-0" />
+        <div class="divider my-2" />
       </>
     ))
   }
-  <div class="divider my-0 mb-3"></div>
+  <div class="divider my-2 mb-3"></div>
   <div>
     <div class="text-2xl md:text-3xl w-full font-bold mb-2">
       {t('index.personal.title')} {"</>"}
@@ -148,7 +148,7 @@ const funProjects = [...posts, ...postsWork]
           date={post.frontmatter.pubDate}
           target="_self"
         />
-        <div class="divider my-0" />
+        <div class="divider my-2" />
       </>
     ))
   }

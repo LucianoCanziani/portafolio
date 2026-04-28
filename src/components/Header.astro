@@ -1,3 +1,12 @@
+---
+import type { Lang } from '../i18n/ui';
+
+const {
+  lang = 'es' as Lang,
+  alternatePath = lang === 'es' ? '/en' : '/',
+} = Astro.props;
+---
+
 <div
   class="sticky lg:hidden top-0 z-30 flex h-16 w-full justify-center bg-gray-900/80 backdrop-blur-md border-b border-white/10 text-gray-100 shadow-sm"
 >
@@ -7,6 +16,37 @@
         ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
       </svg>
     </label>
-    <a class="btn btn-ghost normal-case text-xl" href="/">Luciano Canziani ⚡️</a>
+
+    <a class="btn btn-ghost normal-case text-xl" href={lang === 'en' ? '/en' : '/'}>Luciano Canziani ⚡️</a>
+
+    <button
+      id="header-lang-toggle"
+      data-target={alternatePath}
+      data-to-es={lang === 'en' ? 'true' : undefined}
+      aria-label={lang === 'es' ? 'Switch to English' : 'Cambiar a Español'}
+      class="absolute right-2 flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border border-white/10 hover:border-blue-500/40 hover:bg-blue-500/10 active:bg-blue-500/20 active:border-blue-500/40 transition-all cursor-pointer"
+    >
+      <img
+        src={lang === 'es' ? '/en.png' : '/es.png'}
+        alt={lang === 'es' ? 'EN' : 'ES'}
+        width="20"
+        height="20"
+        class="rounded-full opacity-80"
+      />
+      <span class="text-xs font-bold text-gray-400">{lang === 'es' ? 'EN' : 'ES'}</span>
+    </button>
   </div>
 </div>
+
+<script>
+  const btn = document.getElementById('header-lang-toggle');
+  btn?.addEventListener('click', () => {
+    const target = (btn as HTMLButtonElement).dataset.target;
+    if ((btn as HTMLButtonElement).dataset.toEs) {
+      sessionStorage.setItem('lang-chosen', 'es');
+    } else {
+      sessionStorage.removeItem('lang-chosen');
+    }
+    if (target) window.location.href = target;
+  });
+</script>

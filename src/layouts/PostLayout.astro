@@ -42,6 +42,15 @@ const t = useTranslations(lang);
 >
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
+      <a
+        href={lang === 'en' ? '/en' : '/'}
+        class="not-prose inline-flex items-center gap-2 text-sm text-gray-400 hover:text-blue-400 active:text-blue-400 transition-colors mb-4"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        {lang === 'es' ? 'Volver al inicio' : 'Back to home'}
+      </a>
       {
         heroImage && (
           <img
