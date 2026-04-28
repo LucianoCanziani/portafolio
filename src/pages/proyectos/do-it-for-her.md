@@ -8,6 +8,7 @@ altImage: "Do it For Her The Simpsons - Tool"
 gitHub: ""
 deploy: "https://the-simpsons-do-it-for-her-him.vercel.app/"
 stack: "ReactJs,CSS"
+fun: true
 ---
 
 Create your own version of the Simpsons "Do it for her" poster with this incredible free tool.
