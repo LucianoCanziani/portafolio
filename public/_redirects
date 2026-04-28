@@ -1,0 +1,2 @@
+# Redirige a /en si el navegador del visitante es en inglés
+/  /en  302  Language=en

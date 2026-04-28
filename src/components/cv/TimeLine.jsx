@@ -1,7 +1,14 @@
 import React from "react"
 import StackBadge from "./StackBadge"
 
-const TimeLine = ({ items }) => {
+const labels = {
+  es: { year: 'año', years: 'años', month: 'mes', months: 'meses', and: 'y' },
+  en: { year: 'year', years: 'years', month: 'month', months: 'months', and: 'and' },
+};
+
+const TimeLine = ({ items, lang = 'es' }) => {
+    const L = labels[lang] ?? labels.es;
+
     const calculateDuration = (dateString) => {
         if (!dateString || !dateString.includes("-")) return "";
         const parts = dateString.split("-").map(s => s.trim());
@@ -23,21 +30,20 @@ const TimeLine = ({ items }) => {
         if (!start || !end) return "";
 
         let months = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth());
-        months += 1; // Inclusive
+        months += 1;
 
         const years = Math.floor(months / 12);
         const remainingMonths = months % 12;
 
         let result = "";
-        if (years > 0) result += `${years} ${years === 1 ? 'year' : 'years'}`;
+        if (years > 0) result += `${years} ${years === 1 ? L.year : L.years}`;
         if (remainingMonths > 0) {
-            if (result) result += " and ";
-            result += `${remainingMonths} ${remainingMonths === 1 ? 'month' : 'months'}`;
+            if (result) result += ` ${L.and} `;
+            result += `${remainingMonths} ${remainingMonths === 1 ? L.month : L.months}`;
         }
 
         return result ? ` • (${result})` : "";
     };
-
 
     return (
         <>
@@ -63,7 +69,6 @@ const TimeLine = ({ items }) => {
                                 {item.desc ? <p className="my-2 text-justify timeline-desc">
                                     {item.desc}
                                 </p> : null}
-
                             </div>
                         </div>
                     )

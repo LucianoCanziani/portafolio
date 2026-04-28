@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: "Sandwiches Roma - Delivery Ecommerce"
-description: 'It consists of an online store for a pastry store specializing in sandwiches of miga.'
+description: "Tienda online para una panadería especializada en sandwiches de miga."
 pubDate: "Jun 14 2022"
 heroImage: "/proyectos/sandwich-roma.png"
 altImage: "Sandwiches Roma"
@@ -10,13 +10,13 @@ deploy: "https://sandwichesroma.netlify.app/"
 stack: "ReactJs,FireBase"
 ---
 
-It consists of an online store for a pastry store specializing in sandwiches of miga.
+Tienda online para una panadería especializada en sandwiches de miga.
 
-## What I did do?
+## ¿Qué hice?
 
-- Database connection with FireBase.
-- Whatsapp API to process the orders.
-- use of many front-end libraries for animations.
+- Conexión a base de datos con FireBase.
+- API de WhatsApp para procesar los pedidos.
+- Uso de varias librerías de front-end para las animaciones.
 
 ## Deploy Netlify
 

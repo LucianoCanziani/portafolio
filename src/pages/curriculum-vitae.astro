@@ -2,66 +2,65 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLine from "../components/cv/TimeLine.jsx";
 import Stacks from "../components/cv/Stacks.jsx";
-import { stack, items, itemsEstudios, itemsCursos } from "../data/cvData.js";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const { stack, items, itemsEstudios, itemsCursos } = lang === 'en'
+  ? await import('../data/cvData.js')
+  : await import('../data/cvData.es.js');
 ---
 
-<BaseLayout
-  title="Luciano Canziani: Curriculum Vitae"
-  description=`Hello! My name is Luciano and I have solid experience in developing technological solutions in multicultural contexts.
-
-I combine both logical and creative thinking to solve the challenges I encounter, improving myself every day.`
->
+<BaseLayout title={`Luciano Canziani: ${t('cv.h1')}`} description={SITE_DESCRIPTION} lang={lang}>
   <h1 class="text-5xl font-bold mb-6">
     Luciano Canziani CV
   </h1>
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">About me</div>
+    <div class="text-3xl w-full font-bold titles">{t('cv.aboutme.title')}</div>
   </div>
 
   <div class="mb-10 text-justify">
-    <p class="text-lg mb-5">
-     Hello! My name is Luciano and I have solid experience in developing technological solutions in multicultural contexts.
-    </p>
-    <p class="text-lg">
-I combine both logical and creative thinking to solve the challenges I encounter, improving myself every day.
-    </p>
+    <p class="text-lg mb-5">{t('cv.aboutme.p1')}</p>
+    <p class="text-lg">{t('cv.aboutme.p2')}</p>
   </div>
 
   <div class="mb-5">
-    <h2 class="text-3xl w-full font-bold titles">Work Experience</h2>
+    <h2 class="text-3xl w-full font-bold titles">{t('cv.work')}</h2>
   </div>
 
   <div class="time-line-container mb-10">
-    <TimeLine items={items} />
+    <TimeLine items={items} lang={lang} />
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Education</div>
+    <div class="text-3xl w-full font-bold titles">{t('cv.education')}</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
-    <TimeLine items={itemsEstudios} />
+    <TimeLine items={itemsEstudios} lang={lang} />
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Courses</div>
+    <div class="text-3xl w-full font-bold titles">{t('cv.courses')}</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
-    <TimeLine items={itemsCursos} />
+    <TimeLine items={itemsCursos} lang={lang} />
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Languages</div>
+    <div class="text-3xl w-full font-bold titles">{t('cv.languages')}</div>
   </div>
 
   <ul class="lista-idiomas">
-    <li>Spanish: Native</li>
-    <li>English: Advance</li>
+    <li>{t('cv.languages.spanish')}</li>
+    <li>{t('cv.languages.english')}</li>
   </ul>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold titles">Stack</div>
+    <div class="text-3xl w-full font-bold titles">{t('cv.stack')}</div>
   </div>
 
   <Stacks items={stack} />

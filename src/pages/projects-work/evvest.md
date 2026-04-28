@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Evvest - Investment Platform"
-description: "Investment platform for french women"
+title: "Evvest - Plataforma de Inversión"
+description: "Plataforma de inversión para mujeres francesas."
 pubDate: "Jul 13 2024"
 heroImage: "/proyectos/evvest.jpg"
 altImage: ""
@@ -10,13 +10,13 @@ deploy: "https://evvest.fr"
 stack: "AstroJs,CSS,Headless Wordpress,TypeScript"
 ---
 
-Investment platform for french women.
+Plataforma de inversión para mujeres francesas.
 
-## What I did do?
+## ¿Qué hice?
 
-- Complete development of website plus animations.
-- Interactive Charts.
-- Implemention of Headless Wordpress for content management.
+- Desarrollo completo del sitio web más animaciones.
+- Gráficos interactivos.
+- Implementación de Headless WordPress para gestión de contenido.
 
 ## Deploy
 

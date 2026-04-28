@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: "TMKonnect - LawTech"
-description: "TMKonnect does easy and efficient online trademark procedures worldwide, while providing convenient and immediate quotes, allowing for bulk fillings to be made automatically."
+description: "TMKonnect facilita los trámites de marcas registradas online a nivel mundial, con cotizaciones inmediatas y la posibilidad de hacer registros masivos de forma automática."
 pubDate: "Dec 23 2023"
 heroImage: "/proyectos/tmk.png"
 altImage: "TMKonnect"
@@ -11,15 +11,15 @@ stack: "ReactJs,MeteorJs,MongoDB,JavaScript"
 featured: true
 ---
 
-TMKonnect does easy and efficient online trademark procedures worldwide, while providing convenient and immediate quotes, allowing for bulk fillings to be made automatically.
+TMKonnect facilita los trámites de marcas registradas online a nivel mundial, con cotizaciones inmediatas y la posibilidad de hacer registros masivos de forma automática.
 
-## What I did do?
+## ¿Qué hice?
 
-- Creation of the "Change of Address" feature
-- Improve loading website velocity by optimizing MongoDB queries, lazy loading, and loading on scroll.
-- Adding more custom features for clients and law firms to optimize all the procedures.
-- Creation of legal dynamic documents and sent with SendGrid.
--Currently developing the CopyRight Section
+- Creación de la funcionalidad "Change of Address".
+- Mejora de la velocidad de carga optimizando queries de MongoDB, lazy loading y carga al hacer scroll.
+- Agregado de funcionalidades personalizadas para clientes y estudios jurídicos.
+- Creación de documentos legales dinámicos enviados con SendGrid.
+- Actualmente desarrollando la sección de Copyright.
 
 ## Deploy
 

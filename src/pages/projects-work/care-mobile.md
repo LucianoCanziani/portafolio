@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Care Mobile - Service E-Commerce"
-description: "Franchise of cell phone, tablet and computer repair stores in 6 locations."
+title: "Care Mobile - E-Commerce de Servicios"
+description: "Franquicia de tiendas de reparación de celulares, tablets y computadoras en 6 locales."
 pubDate: "Nov 15 2022"
 heroImage: "/proyectos/care-mobile.png"
 altImage: "Care Mobile"
@@ -10,16 +10,16 @@ deploy: "https://caremobile.mx/"
 stack: "Laravel,PHP,MySQL,JavaScript"
 ---
 
-Franchise of cell phone, tablet and computer repair stores in 6 locations.
+Franquicia de tiendas de reparación de celulares, tablets y computadoras en 6 locales.
 
-## What I did do?
+## ¿Qué hice?
 
-- Developed the blog feature from scratch in the dashboard and display of articles in the websites. In the dashboard gives the options to optimize SEO for each article.
-- Configurations to optimize the SEO for every page.
-- Developed new steps, notifications and promos to increase the funnel flow and generate more sales.
-- Google Maps API.
-- Delivery quote based on the customer's distance from the nearest store
-- Google Captcha V3
+- Desarrollé la funcionalidad de blog desde cero en el dashboard y la visualización de artículos en el sitio, con opciones para optimizar el SEO de cada artículo.
+- Configuraciones para optimizar el SEO de cada página.
+- Nuevos pasos, notificaciones y promos para mejorar el flujo del funnel y generar más ventas.
+- API de Google Maps.
+- Cotización de delivery según la distancia del cliente al local más cercano.
+- Google Captcha V3.
 
 ## Deploy
 

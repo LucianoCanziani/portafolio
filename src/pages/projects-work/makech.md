@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: "Grupo Makech"
-description: "An internal administrative platform for a real estate developer. In it, they can create projects, assign properties or constructions, balance, user management, and sales records."
+description: "Plataforma administrativa interna para una inmobiliaria. Permite crear proyectos, asignar propiedades o construcciones, gestionar el balance, usuarios y registros de ventas."
 pubDate: "Dec 22 2023"
 heroImage: "/proyectos/grupo-makech.png"
 altImage: "Grupo Makech"
@@ -10,10 +10,10 @@ deploy: ""
 stack: "Laravel,PHP,MySQL,JavaScript"
 ---
 
-An internal administrative platform for a real estate developer. In it, they can create projects, assign properties or constructions, balance, user management, and sales records.
+Plataforma administrativa interna para una inmobiliaria. Permite crear proyectos, asignar propiedades o construcciones, gestionar el balance, usuarios y registros de ventas.
 
-## What I did do?
+## ¿Qué hice?
 
-- Developed all the creation, edition and deletion of projects, users and balance.
+- Desarrollé toda la creación, edición y eliminación de proyectos, usuarios y balance.
 
-## This project is still ongoing
+## Este proyecto está en curso

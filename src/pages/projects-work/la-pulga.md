@@ -1,20 +1,20 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "La Pulga - Crypto Buy"
-description: "Landing where you can buy the La Pulga Crypto"
+title: "La Pulga - Compra de Crypto"
+description: "Landing donde podés comprar la Crypto La Pulga."
 pubDate: "Jul 05 2024"
 heroImage: "/proyectos/la-pulga.jpg"
-altImage: "La Pulga - Crypto Buy"
+altImage: "La Pulga - Compra de Crypto"
 gitHub: ""
 deploy: "https://lapulga.website"
 stack: "AstroJs,CSS"
 ---
 
-Landing where you can buy the La Pulga Crypto
+Landing donde podés comprar la Crypto La Pulga.
 
-## What I did do?
+## ¿Qué hice?
 
-- Complete development of website Figma => Code.
+- Desarrollo completo del sitio Figma => Código.
 
 ## Deploy
 

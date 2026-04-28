@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Ecco Beauty - Product E-Commerce"
-description: "Ecco is an international professional line of beauty products created for the world of styling."
+title: "Ecco Beauty - E-Commerce de Productos"
+description: "Ecco es una línea internacional de productos de belleza profesionales creada para el mundo del styling."
 pubDate: "Jul 15 2022"
 heroImage: "/proyectos/ecco-beauty.png"
 altImage: "Ecco Beauty"
@@ -10,13 +10,13 @@ deploy: "https://eccobeauty.mx/"
 stack: "Laravel,PHP,MySQL,JavaScript"
 ---
 
-Ecco is an international professional line of beauty products created for the world of styling.
+Ecco es una línea internacional de productos de belleza profesionales creada para el mundo del styling.
 
-## What I did do?
+## ¿Qué hice?
 
-- Complete re-design of the site, figma-dev => code.
-- Implementation of coupons & promo codes.
-- Google Captcha V3
+- Rediseño completo del sitio, Figma-dev => código.
+- Implementación de cupones y códigos de descuento.
+- Google Captcha V3.
 
 ## Deploy
 

@@ -7,4 +7,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://lucianocanziani.netlify.app/",
   integrations: [mdx(), sitemap(), tailwind(), react()],
+  i18n: {
+    defaultLocale: "es",
+    locales: ["es", "en"],
+    routing: { prefixDefaultLocale: false },
+  },
 });

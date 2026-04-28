@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: "Block Consulting - Landing Page"
-description: "Landing page for a consulting agency"
+description: "Landing page para una agencia de consultoría."
 pubDate: "Jul 10 2024"
 heroImage: "/proyectos/block.jpg"
 altImage: "Block Consulting"
@@ -10,12 +10,12 @@ deploy: "https://blockconsulting.cc"
 stack: "AstroJs,CSS,TypeScript"
 ---
 
-Landing page for a consulting agency
+Landing page para una agencia de consultoría.
 
-## What I did do?
+## ¿Qué hice?
 
-- Develop complete website.
-- Animations
+- Desarrollo completo del sitio web.
+- Animaciones.
 
 ## Deploy
 

@@ -1,69 +1,81 @@
+---
+import { useTranslations, getAlternateLangPath } from '../i18n/utils';
+import type { Lang } from '../i18n/ui';
+
+const { lang = 'es' as Lang, currentPath = '/' } = Astro.props;
+const t = useTranslations(lang);
+const alternatePath = getAlternateLangPath(currentPath, lang);
+---
+
 <div class="drawer-side bg-gray-900 border-r border-white/5">
   <label for="my-drawer" class="drawer-overlay bg-black/50 backdrop-blur-sm"></label>
   <div class="menu p-4 overflow-y-auto w-[19rem] bg-transparent text-gray-300">
     <div class="w-fit profile_img_cont">
-      <a href="/">
+      <a href={lang === 'en' ? '/en' : '/'}>
         <div
           class="avatar transition-transform duration-300 ease-in-out w-1/2 hover:scale-105 block m-auto mt-5 mb-8"
         >
           <div class="rounded-full ring ring-blue-500/30 ring-offset-gray-900 ring-offset-4 shadow-xl shadow-blue-500/20">
             <img
               src="/profile.jpg"
-              alt="Profile image of Luciano Canziani"
+              alt={t('nav.profile.alt')}
             />
           </div>
         </div>
       </a>
     </div>
     <ul>
-      <!-- <li><a href="/">Inicio</a></li> -->
-      <li><a href="/">Portfolio</a></li>
-      <li><a href="/curriculum-vitae">Curriculum vitae</a></li>
+      <li><a href={lang === 'en' ? '/en' : '/'}>{t('nav.portfolio')}</a></li>
+      <li><a href={lang === 'en' ? '/en/curriculum-vitae' : '/curriculum-vitae'}>{t('nav.cv')}</a></li>
       <li>
-        <a href="https://www.linkedin.com/in/luciano-canziani/" target="_blank"
-          >Let's Connect!</a
-        >
+        <a href="https://www.linkedin.com/in/luciano-canziani/" target="_blank">{t('nav.connect')}</a>
       </li>
     </ul>
 
     <div class="grow"></div>
+
+    <div class="flex justify-center mb-4">
+      <button
+        id="lang-toggle"
+        data-target={alternatePath}
+        data-to-es={lang === 'en' ? 'true' : undefined}
+        aria-label={t('nav.lang.switch')}
+        class="px-4 py-1.5 rounded-full text-xs font-bold border border-blue-500/30 text-blue-400 hover:bg-blue-500/10 transition-colors cursor-pointer"
+      >
+        🌐 {t('nav.lang.switch')}
+      </button>
+    </div>
+
     <div class="icons">
       <a
         href="https://github.com/LucianoCanziani"
         target="_blank"
         class="mx-3"
-        aria-label="Github"
+        aria-label={t('nav.github.aria')}
       >
-        <img src="/github.png" alt="Github icon" width="24px" height="24px" class="opacity-70 hover:opacity-100 transition-opacity" />
+        <img src="/github.png" alt="GitHub" width="24px" height="24px" class="opacity-70 hover:opacity-100 transition-opacity" />
       </a>
       <a
         href="https://www.linkedin.com/in/luciano-canziani/"
         target="_blank"
         class="mx-3"
-        aria-label="Linkedin"
+        aria-label={t('nav.linkedin.aria')}
       >
-        <img src="/linkedin.png" alt="LinkedIn icon" width="24px" height="24px" class="opacity-70 hover:opacity-100 transition-opacity" />
+        <img src="/linkedin.png" alt="LinkedIn" width="24px" height="24px" class="opacity-70 hover:opacity-100 transition-opacity" />
       </a>
     </div>
-    <!-- <div class="social-icons px-4 my-2 flex self-center">
-      <a
-        href="https://github.com/LucianoCanziani"
-        target="_blank"
-        class="mx-3"
-        aria-label="Github"
-      >
-        <img src="/github.png" alt="" width="24px" height="24px" />
-        
-      </a>
-      <a
-        href="https://www.linkedin.com/in/luciano-canziani/"
-        target="_blank"
-        class="mx-3"
-        aria-label="Linkedin"
-      >
-        <img src="/linkedin.png" alt="" width="24px" height="24px" />
-      
-      </a>
-    </div> -->
   </div>
 </div>
+
+<script>
+  const btn = document.getElementById('lang-toggle');
+  btn?.addEventListener('click', () => {
+    const target = (btn as HTMLButtonElement).dataset.target;
+    if ((btn as HTMLButtonElement).dataset.toEs) {
+      sessionStorage.setItem('lang-chosen', 'es');
+    } else {
+      sessionStorage.removeItem('lang-chosen');
+    }
+    if (target) window.location.href = target;
+  });
+</script>

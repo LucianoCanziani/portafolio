@@ -5,17 +5,28 @@ import Footer from "../components/Footer.astro";
 import SideBar from "../components/SideBar.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import type { Lang } from "../i18n/ui";
 
 const {
   image,
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
+  lang = 'es' as Lang,
 } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang={lang} data-theme="dark">
   <head>
+    <script is:inline>
+      if (
+        window.location.pathname === '/' &&
+        !sessionStorage.getItem('lang-chosen') &&
+        navigator.language?.startsWith('en')
+      ) {
+        window.location.replace('/en');
+      }
+    </script>
     <BaseHead title={title} description={description} image={image} />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +50,7 @@ const {
         <Footer />
       </div>
       <div class="sidebar-cont">
-        <SideBar />
+        <SideBar lang={lang} currentPath={Astro.url.pathname} />
       </div>
     </div>
   </body>

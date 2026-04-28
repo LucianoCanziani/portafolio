@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "To-Do List - Productivity Tool"
-description: "This To-Do List was part of a technical interview in which I had 24 hours to complete it. In it you can add, remove, edit and filter tasks as you like while seeing nice waves in the background."
+title: "To-Do List - Herramienta de Productividad"
+description: "Esta To-Do List fue parte de una entrevista técnica en la que tuve 24 horas para completarla. Podés agregar, eliminar, editar y filtrar tareas mientras ves unas lindas olas de fondo."
 pubDate: "Nov 27 2022"
 heroImage: "/proyectos/To-Do List con ReactJs.webp"
 altImage: "To-Do List con ReactJs"
@@ -12,30 +12,30 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-This To-Do List was part of a technical interview in which I had 24 hours to complete it.
+Esta To-Do List fue parte de una entrevista técnica en la que tuve 24 horas para completarla.
 
-In it you can add, remove, edit and filter tasks as you like while seeing nice waves in the background.
+Podés agregar, eliminar, editar y filtrar tareas mientras ves unas lindas olas de fondo.
 
-I also added the quotable API so you can start the day with an inspiring message.
+También integré la API de Quotable para que arranques el día con un mensaje inspirador.
 
-## How to use
+## Cómo usarlo
 
-1. Write a task in the entry and then press the "Add" button.
-2. Check the completed task, edit or delete it.
-3. You can filter tasks by completed and not completed.
+1. Escribí una tarea y presioná el botón "Add".
+2. Marcá la tarea como completada, editala o eliminala.
+3. Podés filtrar por completadas y pendientes.
 
 ## Video
 
 <YouTube id="https://www.youtube.com/watch?v=4uzqIcIegS4&ab_channel=LucianoCanziani" />
 
-## Librerias y Frameworks
+## Librerías y Frameworks
 
 - react-router-dom: (^6.3.0)
 - axios: (^0.27.2)
 - react-simple-animate: (^3.5.0)
 - react-wavify: (^1.5.8)
 
-## Api Used:
+## API usada:
 
 https://api.quotable.io
 

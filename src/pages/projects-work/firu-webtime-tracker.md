@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Firu - WebTime Productivity Tracker"
-description: "Chrome Extension to keep track of your web activity and productivity supervise by a hot dog."
+title: "Firu - Tracker de Productividad Web"
+description: "Extensión de Chrome para hacer seguimiento de tu actividad web y productividad, supervisada por un perrito salchicha."
 pubDate: "Apr 15 2024"
 heroImage: "/proyectos/firu-webtime-tracker.png"
 altImage: "Firu Webtime Tracker"
@@ -10,18 +10,18 @@ deploy: "https://chromewebstore.google.com/detail/firu-webtime-productivity/jhad
 stack: "Svelte,CSS,Chrome Extension,JavaScript"
 ---
 
-Take control of your online time with our Chrome extension designed to track your web activity and boost productivity. 🕒
+Tomá el control de tu tiempo online con nuestra extensión de Chrome diseñada para hacer seguimiento de tu actividad web y mejorar tu productividad. 🕒
 
-With Firu by your side, your browsing experience becomes personalized and more enjoyable. 🐶
+Con Firu a tu lado, tu experiencia de navegación se vuelve más personalizada y disfrutable. 🐶
 
-This Chrome Extension was developed by me and designed by <a href="https://www.linkedin.com/in/julieta-carmona/" target="_blank">Julieta Carmona</a>.
+Esta extensión fue desarrollada por mí y diseñada por <a href="https://www.linkedin.com/in/julieta-carmona/" target="_blank">Julieta Carmona</a>.
 
-## What I did do?
+## ¿Qué hice?
 
-- Developed a Chrome Extension using the framework Svelte with Vite to compile.
-- Track user activity using Chrome Native functions.
-- Canvas to make a custom doughnut chart.
-- Many algoritms to generate stats and handle big bundles of data efficiently.
+- Desarrollé una extensión de Chrome usando el framework Svelte con Vite para compilar.
+- Seguimiento de la actividad del usuario usando funciones nativas de Chrome.
+- Canvas para crear un gráfico de dona personalizado.
+- Varios algoritmos para generar estadísticas y manejar grandes volúmenes de datos de forma eficiente.
 
 ## Deploy
 

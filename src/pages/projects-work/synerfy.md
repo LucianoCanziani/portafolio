@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Synerfy - Networking Platform"
-description: "Synerfy is a comprehensive platform that manages, analyzes and optimizes events by combining management tools with a networking-focused social network."
+title: "Synerfy - Plataforma de Networking"
+description: "Synerfy es una plataforma integral que gestiona, analiza y optimiza eventos combinando herramientas de gestión con una red social orientada al networking."
 pubDate: "Oct 1 2024"
 heroImage: "/proyectos/synerfy.jpg"
 altImage: "Hey Synerfy"
@@ -11,14 +11,14 @@ stack: "Laravel,PHP,MySQL,ReactJs"
 featured: true
 ---
 
-Synerfy is a comprehensive platform that manages, analyzes and optimizes events by combining management tools with a networking-focused social network.
+Synerfy es una plataforma integral que gestiona, analiza y optimiza eventos combinando herramientas de gestión con una red social orientada al networking.
 
-## What I did do?
+## ¿Qué hice?
 
-- Develop the complete platform
-- Implementation of Mercado Pago API to manage payments.
-- CloudFlare R2 to manage images
-- QR Scanner that allows you to check in registrants and print their badge to any printer connected with Bluetooth.
+- Desarrollo completo de la plataforma.
+- Integración de la API de Mercado Pago para gestionar pagos.
+- CloudFlare R2 para gestión de imágenes.
+- Scanner de QR que permite registrar asistentes e imprimir su credencial en cualquier impresora conectada por Bluetooth.
 
 ## Deploy
 

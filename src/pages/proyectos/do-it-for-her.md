@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
 title: '"Do it For Her" The Simpsons - Tool'
-description: 'Create your own version of the Simpsons "Do it for her" poster with this incredible free tool.'
+description: 'Creá tu propia versión del póster "Do it for her" de Los Simpsons con esta increíble herramienta gratuita.'
 pubDate: "Dec 01 2023"
 heroImage: "/proyectos/do-it-for-her.webp"
 altImage: "Do it For Her The Simpsons - Tool"
@@ -11,14 +11,13 @@ stack: "ReactJs,CSS"
 fun: true
 ---
 
-Create your own version of the Simpsons "Do it for her" poster with this incredible free tool.
+Creá tu propia versión del póster "Do it for her" de Los Simpsons con esta increíble herramienta gratuita.
 
-This site was developed by me and designed by <a href="https://www.linkedin.com/in/julieta-carmona/" target="_blank">Julieta Carmona</a>.
+Este sitio fue desarrollado por mí y diseñado por <a href="https://www.linkedin.com/in/julieta-carmona/" target="_blank">Julieta Carmona</a>.
 
-- Used by thousands of users on <a href="https://twitter.com/Data_Simpsons/status/1731383193289318643" target="_blank">Twitter</a>.
-- Figma Dev mode was used to go from design to development.
-- Developed with ReactJs, JavaScript and CSS.
-
+- Usada por miles de usuarios en <a href="https://twitter.com/Data_Simpsons/status/1731383193289318643" target="_blank">Twitter</a>.
+- Se usó Figma Dev mode para pasar del diseño al desarrollo.
+- Desarrollado con ReactJs, JavaScript y CSS.
 
 ## Deploy Vercel
 

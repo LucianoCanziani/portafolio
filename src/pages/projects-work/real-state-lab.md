@@ -1,23 +1,23 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Real State Lab"
-description: "Platform where real estate agencies can create several stores, upload their properties and assign representatives to manage them."
+title: "Real Estate Lab"
+description: "Plataforma donde las inmobiliarias pueden crear varias tiendas, subir sus propiedades y asignar representantes para gestionarlas."
 pubDate: "Dec 22 2023"
 heroImage: "/proyectos/labs.png"
-altImage: "Real State Lab"
+altImage: "Real Estate Lab"
 gitHub: ""
 deploy: ""
 stack: "ReactJs,MeteorJs,MongoDB,JavaScript"
 featured: true
 ---
 
-Platform where real estate agencies can create several stores, upload their properties, and assign representatives to manage them.
+Plataforma donde las inmobiliarias pueden crear varias tiendas, subir sus propiedades y asignar representantes para gestionarlas.
 
-## What I did do?
+## ¿Qué hice?
 
-- Developed the creation and edition of stores optimized for SEO.
-- The assignment of representatives to properties.
-- Properties filter.
-- SendGrid for emails in all the platform.
+- Desarrollé la creación y edición de tiendas optimizadas para SEO.
+- Asignación de representantes a propiedades.
+- Filtrado de propiedades.
+- SendGrid para los emails de toda la plataforma.
 
-## This project is still ongoing
+## Este proyecto está en curso

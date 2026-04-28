@@ -1,6 +1,6 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
 import BaseLayout from "./BaseLayout.astro";
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 export interface Props {
   content: {
@@ -29,17 +29,19 @@ const {
     stack,
   },
 } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <BaseLayout
   title={title}
   description={description}
   image={heroImage}
-  altImage={altImage}
+  lang={lang}
 >
   <main class="md:flex md:justify-center">
     <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-      <!--    <div class="mb-6" style="min-height: 305px;width:100%;"> -->
       {
         heroImage && (
           <img
@@ -50,7 +52,6 @@ const {
           />
         )
       }
-      <!--    </div> -->
       <h1 class="title my-2 text-4xl font-bold">{title}</h1>
       <span>Luciano Canziani -</span><time> {pubDate}</time>
       <div class="icon-cont">
@@ -60,18 +61,18 @@ const {
               href={gitHub}
               target="_blank"
               class="mx-3 icon-item"
-              aria-label="Github"
+              aria-label={t('post.github')}
             >
-              <img src="/github.png" alt="github repositorio" />
-              <span>GitHub</span>
+              <img src="/github.png" alt={t('post.github.alt')} />
+              <span>{t('post.github')}</span>
             </a>
           ) : null
         }
         {
           deploy ? (
-            <a href={deploy} target="_blank" class="mx-3 icon-item">
-              <img src="/website.png" alt="Live Website" />
-              <span>Live Website</span>
+            <a href={deploy} target="_blank" class="mx-3 icon-item" aria-label={t('post.deploy')}>
+              <img src="/website.png" alt={t('post.deploy.alt')} />
+              <span>{t('post.deploy')}</span>
             </a>
           ) : null
         }

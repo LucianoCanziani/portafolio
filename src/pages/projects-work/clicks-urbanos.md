@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Clicks Urbanos - Static Website"
-description: "Clicks Urbanos is a marketing agency and it was my first work experience as a programmer. I did the project together with another programmer, so it gave me perspective and lessons when it came to working as a team in this field."
+title: "Clicks Urbanos - Sitio Web Estático"
+description: "Clicks Urbanos es una agencia de marketing y fue mi primera experiencia laboral como programador. Lo hice junto a otro programador, lo que me dio perspectiva y aprendizajes sobre el trabajo en equipo."
 pubDate: "Feb 03 2022"
 heroImage: "/proyectos/Clicks Urbanos.webp"
 altImage: "Clicks Urbanos"
@@ -12,9 +12,9 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Clicks Urbanos is a marketing agency and it was my first work experience as a programmer.
+Clicks Urbanos es una agencia de marketing y fue mi primera experiencia laboral como programador.
 
-I did the project together with another programmer, so it gave me perspective and lessons when it came to working as a team in this field.
+Lo hice junto a otro programador, lo que me dio perspectiva y aprendizajes sobre el trabajo en equipo en este campo.
 
 ## Deploy Netlify
 
