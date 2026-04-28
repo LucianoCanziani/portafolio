@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "¡Golpea Lo Que Quieras! - Juego Web"
+title: "¡Golpea Lo Que Quieras!"
 description: "Inspirado en el juego Whack a Mole, te presento ¡Golpea Lo Que Quieras! En este juego podés subir cualquier foto que quieras golpear y reemplazar al topo con ella."
 pubDate: "Mar 28 2022"
 heroImage: "/proyectos/Golpea Lo Que Tu Quieras.webp"
@@ -8,6 +8,7 @@ altImage: "¡Golpea Lo Que Quieras!"
 gitHub: "https://github.com/LucianoCanziani/whack-whatever-you-want"
 deploy: "https://main--whackwhateveryouwant.netlify.app/"
 stack: "JavaScript,CSS"
+tagline: "Pon a prueba tus reflejos 👊"
 fun: true
 setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';

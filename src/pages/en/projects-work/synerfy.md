@@ -8,6 +8,7 @@ altImage: "Hey Synerfy"
 gitHub: ""
 deploy: "https://heysynerfy.com"
 stack: "Laravel,PHP,MySQL,ReactJs"
+tagline: "Made by introverts, for introverts"
 featured: true
 ---
 

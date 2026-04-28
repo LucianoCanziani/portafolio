@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Hit What You Want! - Web Game"
-description: "Inspired by the game Whack a Mole, I present to you Hit What You Want. In this game, you will be able to upload any photo you want to hit and replace the mole with it."
+title: "¡Golpea Lo Que Quieras!"
+description: "Inspirado en el juego Whack a Mole, te presento ¡Golpea Lo Que Quieras! En este juego podés subir cualquier foto que quieras golpear y reemplazar al topo con ella."
 pubDate: "Mar 28 2022"
 heroImage: "/proyectos/Golpea Lo Que Tu Quieras.webp"
 altImage: "Hit What You Want"
@@ -12,21 +12,20 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Inspired by the game Whack a Mole, I present to you Hit What You Want. In this game, you will be able to upload any photo you want to hit and replace the mole with it.
+Inspirado en el juego Whack a Mole, te presento ¡Golpea Lo Que Quieras! En este juego podés subir cualquier foto que quieras golpear y reemplazar al topo con ella.
 
-This project is part of the "30 Day Vanilla JS Coding Challenge" and I gave it my personal touch by modifying it.
+Este proyecto es parte del "30 Day Vanilla JS Coding Challenge" al cual le agregué mi toque personal modificándolo.
 
-Challenge link: https://javascript30.com/
+Enlace al desafío: https://javascript30.com/
 
 ## Video
 
 <YouTube id="https://www.youtube.com/watch?v=AgMWZHu_w1Q&ab_channel=LucianoCanziani" />
 
-## GitHub 
+## GitHub
 
 https://github.com/LucianoCanziani/whack-whatever-you-want
 
 ## Deploy Netlify
 
 https://main--whackwhateveryouwant.netlify.app/
-

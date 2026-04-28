@@ -8,7 +8,7 @@ altImage: "Real Estate Lab"
 gitHub: ""
 deploy: ""
 stack: "ReactJs,MeteorJs,MongoDB,JavaScript"
-featured: true
+featured: false
 ---
 
 Plataforma donde las inmobiliarias pueden crear varias tiendas, subir sus propiedades y asignar representantes para gestionarlas.

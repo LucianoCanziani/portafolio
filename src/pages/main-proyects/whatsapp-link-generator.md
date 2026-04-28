@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Whatsapp Link Generator - Management Tool"
-description: "Whatsapp Link Generator is a free tool that I created for my Operation Dev website. With it you can create links that redirect to cell phone chats and also with a predefined message."
+title: "Generador de Links de WhatsApp - Herramienta"
+description: "El Generador de Links de WhatsApp es una herramienta gratuita que creé para mi sitio Operation Dev. Con ella podés crear links que redirigen a chats de celular con un mensaje predefinido."
 pubDate: "Nov 28 2022"
 heroImage: "/proyectos/Whatsapp Link Generator.webp"
 altImage: "Whatsapp Link Generator"
@@ -12,21 +12,16 @@ setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';
 ---
 
-Whatsapp Link Generator is a free tool. With it you can create links that redirect to cell phone chats and also with a predefined message.
+El Generador de Links de WhatsApp es una herramienta gratuita. Con ella podés crear links que redirigen a chats de celular con un mensaje predefinido.
 
-- Used by several businesses.
-- A URL-encoding translator was created for all types of characters and emojis that the user wants to convert
-into a link.
-- Developed with ReactJs, Whatsapp API, JavaScript and css
+- Usada por varios negocios.
+- Se creó un traductor de URL-encoding para todo tipo de caracteres y emojis que el usuario quiera convertir en un link.
+- Desarrollado con ReactJs, la API de WhatsApp, JavaScript y CSS.
 
+## Lo que aprendí
 
-## What I learned
-
-- Creating WhatsApp API links for instant messaging with personalized content.
-
-- Using the URL-encoding language to convert characters to links and vice versa.
-
-
+- Crear links de la API de WhatsApp para mensajería instantánea con contenido personalizado.
+- Usar el lenguaje URL-encoding para convertir caracteres en links y viceversa.
 
 ## Deploy
 

@@ -8,6 +8,7 @@ altImage: "Do it For Her The Simpsons - Tool"
 gitHub: ""
 deploy: "https://the-simpsons-do-it-for-her-him.vercel.app/"
 stack: "ReactJs,CSS"
+tagline: "Frame the reason you get up every morning"
 fun: true
 ---
 

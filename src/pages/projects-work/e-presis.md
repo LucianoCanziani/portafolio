@@ -8,6 +8,7 @@ altImage: "e-Presis Software Logístico"
 gitHub: ""
 deploy: "https://www.presisconsultores.com/"
 stack: "Laravel,PHP,MySQL,JIRA,Team Leadership"
+tagline: "Si necesitas algo en el rubro de logística, lo más seguro es que este sistema lo cubre"
 featured: true
 ---
 

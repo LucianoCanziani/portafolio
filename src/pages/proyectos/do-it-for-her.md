@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: '"Do it For Her" The Simpsons - Tool'
+title: '"Do it For Her" The Simpsons'
 description: 'Creá tu propia versión del póster "Do it for her" de Los Simpsons con esta increíble herramienta gratuita.'
 pubDate: "Dec 01 2023"
 heroImage: "/proyectos/do-it-for-her.webp"
@@ -8,6 +8,7 @@ altImage: "Do it For Her The Simpsons - Tool"
 gitHub: ""
 deploy: "https://the-simpsons-do-it-for-her-him.vercel.app/"
 stack: "ReactJs,CSS"
+tagline: "Enmarca la razón de levantarte cada mañana"
 fun: true
 ---
 

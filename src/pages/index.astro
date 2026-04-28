@@ -74,7 +74,7 @@ const funProjects = [...posts, ...postsWork]
             img={post.frontmatter.heroImage}
             desc={post.frontmatter.description}
             url={post.url}
-            stack={post.frontmatter.stack}
+            tagline={post.frontmatter.tagline}
             lang={lang}
             target="_self"
           />
@@ -97,7 +97,8 @@ const funProjects = [...posts, ...postsWork]
             img={post.frontmatter.heroImage}
             desc={post.frontmatter.description}
             url={post.url}
-            stack={post.frontmatter.stack}
+            tagline={post.frontmatter.tagline}
+            badge={t('card.fun.badge')}
             lang={lang}
             target="_self"
           />
@@ -128,7 +129,7 @@ const funProjects = [...posts, ...postsWork]
       </>
     ))
   }
-  <div class="divider my-0 mb_31"></div>
+  <div class="divider my-0 mb-3"></div>
   <div>
     <div class="text-3xl w-full font-bold mb-2">
       {t('index.personal.title')} {"</>"}

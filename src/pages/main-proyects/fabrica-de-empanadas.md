@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/PostLayout.astro"
-title: "Fabrica de Empanadas - Delivery Ecommerce"
-description: 'Final project for the React Js course at CoderHouse. It consists of an online store inspired by the Orders "Pedidos Ya!" application.'
+title: "Fábrica de Empanadas - Ecommerce de Delivery"
+description: 'Proyecto final del curso de React Js en CoderHouse. Consiste en una tienda online inspirada en la aplicación de pedidos "Pedidos Ya!".'
 pubDate: "Jun 15 2022"
 heroImage: "/proyectos/Fabrica de Empanadas.webp"
 altImage: "Fabrica de Empanadas"
@@ -10,11 +10,11 @@ deploy: "https://fabricadeempanadas.netlify.app/"
 stack: "ReactJs,FireBase"
 ---
 
-Final project for the React Js course at CoderHouse. It consists of an online store inspired by the Orders "Pedidos Ya!" application.
+Proyecto final del curso de React Js en CoderHouse. Consiste en una tienda online inspirada en la aplicación de pedidos "Pedidos Ya!".
 
-Some of the libraries and frameworks used in this project are Route, Hooks and the use of Firebase as a real-time database.
+Algunas de las librerías y frameworks usados son Route, Hooks y Firebase como base de datos en tiempo real.
 
-## Libraries and Frameworks:
+## Librerías y Frameworks:
 
 - firebase: ^9.6.11
 - react-router-dom: ^6.3.0
@@ -29,9 +29,9 @@ https://github.com/LucianoCanziani/fabrica-de-empanadas
 
 https://fabricadeempanadas.netlify.app/
 
-## How to use:
+## Cómo usarlo:
 
-1. Browse the store and filter by category. Select the desired empanadas and add them to the cart.
-2. Go to the shopping cart and review the selected items.
-3. Fill in your address information in the payment form.
-4. Complete the purchase by clicking the red button that says "Submit order".
+1. Navegá la tienda y filtrá por categoría. Seleccioná las empanadas que querés y agregálas al carrito.
+2. Andá al carrito y revisá los productos seleccionados.
+3. Completá tu información de envío en el formulario de pago.
+4. Finalizá la compra haciendo clic en el botón rojo que dice "Confirmar pedido".

@@ -8,6 +8,7 @@ altImage: "Hit What You Want"
 gitHub: "https://github.com/LucianoCanziani/whack-whatever-you-want"
 deploy: "https://main--whackwhateveryouwant.netlify.app/"
 stack: "JavaScript,CSS"
+tagline: "Put your reflexes to the test 👊"
 fun: true
 setup: |
   import { Tweet, Vimeo, YouTube } from 'astro-embed';

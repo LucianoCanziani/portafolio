@@ -8,7 +8,7 @@ altImage: "TMKonnect"
 gitHub: ""
 deploy: "https://tmkonnect.com/"
 stack: "ReactJs,MeteorJs,MongoDB,JavaScript"
-featured: true
+featured: false
 ---
 
 TMKonnect does easy and efficient online trademark procedures worldwide, while providing convenient and immediate quotes, allowing for bulk fillings to be made automatically.

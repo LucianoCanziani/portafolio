@@ -8,7 +8,7 @@ altImage: "TMKonnect"
 gitHub: ""
 deploy: "https://tmkonnect.com/"
 stack: "ReactJs,MeteorJs,MongoDB,JavaScript"
-featured: true
+featured: false
 ---
 
 TMKonnect facilita los trámites de marcas registradas online a nivel mundial, con cotizaciones inmediatas y la posibilidad de hacer registros masivos de forma automática.
