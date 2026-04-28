@@ -12,14 +12,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astro-community/astro-embed-youtube": "^0.2.1",
+    "@astro-community/astro-embed-youtube": "^0.5.10",
     "@astrojs/mdx": "^5.0.4",
     "@astrojs/react": "^5.0.4",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^6.1.9",
-    "astro-embed": "^0.2.0",
+    "astro-embed": "^0.13.0",
     "daisyui": "^2.27.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
