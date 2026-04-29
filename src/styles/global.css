@@ -107,21 +107,18 @@
     }
 }
 
-img {
-    animation: lazy_loading 1s ease-in-out backwards;
-}
+
 
 .experience__data {
-    animation: lazy_loading 1s ease-in-out backwards;
+    animation: lazy_loading 1s ease-in-out both;
 }
 
 .horizontal_card {
-    animation: lazy_loading 1s ease-in-out backwards;
+    animation: lazy_loading 1s ease-in-out both;
 }
 
 
 .drawer-side {
-    animation: lazy_loading 1s ease-in-out backwards;
     display: flex;
     height: 100%;
 }
@@ -145,7 +142,7 @@ img {
 
 @keyframes lazy_loading {
     from {
-        opacity: 0.1;
+        opacity: 0;
     }
 
     to {
