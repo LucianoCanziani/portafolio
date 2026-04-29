@@ -16,7 +16,7 @@ const t = useTranslations(lang);
 const badgeLabel = badge ?? t('card.featured.badge');
 ---
 
-<div class="featured-card group relative overflow-hidden rounded-2xl bg-neutral-900 border border-white/5 transition-all duration-500 hover:border-blue-500/50 hover:shadow-[0_0_50px_-12px_rgba(59,130,246,0.3)]">
+<div class="featured-card lazy_loading group relative overflow-hidden rounded-2xl bg-neutral-900 border border-white/5 transition-all duration-500 hover:border-blue-500/50 hover:shadow-[0_0_50px_-12px_rgba(59,130,246,0.3)]">
   <a href={url} target={target} class="flex flex-col h-full">
     <div class="aspect-video overflow-hidden relative">
       <!-- Image -->

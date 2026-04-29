@@ -150,6 +150,11 @@
     }
 }
 
+.lazy_loading {
+    animation: lazy_loading 1s ease-in-out both;
+}
+
+
 body {
     padding-bottom: env(safe-area-inset-bottom);
     padding-left: env(safe-area-inset-left);

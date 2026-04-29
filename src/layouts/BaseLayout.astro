@@ -46,7 +46,7 @@ const alternatePath = getAlternateLangPath(Astro.url.pathname, lang);
       <div class="drawer-content flex flex-col">
         <Header lang={lang} alternatePath={alternatePath} />
         <div class="w-full">
-          <main class="p-6 pt-4 md:pt-10 max-w-[900px] w-full mx-auto">
+          <main class="p-6 pt-4 md:pt-10 max-w-[900px] w-full mx-auto lazy_loading">
             <slot />
           </main>
         </div>
